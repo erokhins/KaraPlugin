@@ -10,8 +10,8 @@ import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.Ref;
 import com.intellij.psi.PsiDocumentManager;
 import com.intellij.psi.PsiFile;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.jetbrains.kara.plugin.converter.ConvertedCode;
 
 import java.awt.datatransfer.Transferable;
 
@@ -41,7 +41,7 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
             if (file == null) {
                 return;
             }
-            boolean needConvert = true;
+            boolean needConvert = okFromDialog(project);
             if (needConvert) {
                 if (value instanceof ConvertedCode) {
                     final String text = ((ConvertedCode) value).getData();
@@ -58,5 +58,11 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
         } catch (Throwable t) {
             LOG.error(t);
         }
+    }
+
+    private static boolean okFromDialog(@NotNull Project project) {
+        KaraPasteFromHtmlDialog dialog = new KaraPasteFromHtmlDialog(project);
+        dialog.show();
+        return dialog.isOK();
     }
 }
