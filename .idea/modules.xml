@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KaraPlugin.iml" filepath="$PROJECT_DIR$/KaraPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paste-converter/paste-converter.iml" filepath="$PROJECT_DIR$/paste-converter/paste-converter.iml" />
+    </modules>
+  </component>
+</project>
+
