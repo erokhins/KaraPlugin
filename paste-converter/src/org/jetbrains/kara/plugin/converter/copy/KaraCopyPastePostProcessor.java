@@ -1,4 +1,4 @@
-package org.jetbrains.kara.plugin.converter;
+package org.jetbrains.kara.plugin.converter.copy;
 
 import com.intellij.codeInsight.editorActions.CopyPastePostProcessor;
 import com.intellij.codeInsight.editorActions.TextBlockTransferableData;

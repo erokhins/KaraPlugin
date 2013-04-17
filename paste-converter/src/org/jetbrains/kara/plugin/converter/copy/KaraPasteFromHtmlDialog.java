@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jetbrains.kara.plugin.converter;
+package org.jetbrains.kara.plugin.converter.copy;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.DialogWrapper;
