@@ -10,9 +10,11 @@ import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.Ref;
 import com.intellij.psi.PsiDocumentManager;
 import com.intellij.psi.PsiFile;
+import kara.converter.KaraHTMLConverter;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 
 /**
@@ -28,10 +30,28 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
         return null;
     }
 
+    private boolean isContainHTML(Transferable content) {
+        for (DataFlavor flavor : content.getTransferDataFlavors()) {
+            if (flavor.getMimeType().startsWith("text/html")) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     @Nullable
     @Override
-    public TextBlockTransferableData extractTransferableData(Transferable transferable) {
-        return new ConvertedCode("Hello2");
+    public TextBlockTransferableData extractTransferableData(Transferable content) {
+        try {
+            if (isContainHTML(content)) {
+                String text = (String) content.getTransferData(DataFlavor.stringFlavor);
+                String newText = KaraHTMLConverter.instance$.converter(text, 0);
+                return new ConvertedCode(newText);
+            }
+        } catch (Throwable e) {
+            LOG.error(e);
+        }
+        return null;
     }
 
     @Override
