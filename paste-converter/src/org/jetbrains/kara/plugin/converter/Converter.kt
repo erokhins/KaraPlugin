@@ -1,4 +1,4 @@
-package kara.converter
+package org.jetbrains.kara.plugin.converter
 /**
 * @author Stanislav Erokhin
 */
@@ -8,7 +8,7 @@ import org.jsoup.select.NodeVisitor
 import org.jsoup.nodes.Node
 import org.jsoup.Jsoup
 import org.jsoup.select.NodeTraversor
-import kara.converter.NodeType.*
+import org.jetbrains.kara.plugin.converter.NodeType.*
 import org.jsoup.nodes.Attributes
 import java.util.Collections
 import java.util.ArrayList

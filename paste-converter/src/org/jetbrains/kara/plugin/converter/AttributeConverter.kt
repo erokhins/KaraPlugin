@@ -1,4 +1,4 @@
-package kara.converter
+package org.jetbrains.kara.plugin.converter
 
 import org.jsoup.nodes.Attributes
 
