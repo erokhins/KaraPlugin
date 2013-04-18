@@ -18,13 +18,12 @@ package org.jetbrains.kara.plugin.converter.copy;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.DialogWrapper;
+import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * @ignatov
- */
+
 @SuppressWarnings("UnusedDeclaration")
 public class KaraPasteFromHtmlDialog extends DialogWrapper {
     private JPanel myPanel;
@@ -35,7 +34,7 @@ public class KaraPasteFromHtmlDialog extends DialogWrapper {
         super(project, true);
         setModal(true);
         getRootPane().setDefaultButton(buttonOK);
-        setTitle("Convert Code From Java");
+        setTitle("Convert Code From Html");
         init();
     }
 
@@ -49,6 +48,7 @@ public class KaraPasteFromHtmlDialog extends DialogWrapper {
         return myPanel;
     }
 
+    @NotNull
     @Override
     protected Action[] createActions() {
         return new Action[] {getOKAction(), getCancelAction()};
@@ -56,6 +56,9 @@ public class KaraPasteFromHtmlDialog extends DialogWrapper {
 
     @Override
     protected void doOKAction() {
+        if (donTShowThisCheckBox.isSelected()) {
+            //TODO:
+        }
         super.doOKAction();
     }
 
