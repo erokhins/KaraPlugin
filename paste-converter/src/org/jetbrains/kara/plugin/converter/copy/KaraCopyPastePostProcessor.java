@@ -32,10 +32,13 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
     }
 
     private boolean isContainHTML(Transferable content) {
-        for (DataFlavor flavor : content.getTransferDataFlavors()) {
-            if (flavor.getMimeType().startsWith("text/html")) {
+        try {
+            String text = (String) content.getTransferData(DataFlavor.stringFlavor);
+            if (KaraHTMLConverter.instance$.itMayContentHTML(text)) {
                 return true;
             }
+        } catch (Throwable e) {
+            LOG.error(e);
         }
         return false;
     }

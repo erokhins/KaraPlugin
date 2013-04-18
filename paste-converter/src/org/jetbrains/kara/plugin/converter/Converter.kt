@@ -38,6 +38,21 @@ public object KaraHTMLConverter {
     val DEPTH_SPACE_COUNT = 4
     val HTML_BODY_PATTERN = Pattern.compile("(<body[ >])", Pattern.CASE_INSENSITIVE)
 
+    public fun itMayContentHTML(htmlText : String): Boolean {
+
+        if (hasBodyTag(htmlText)) {
+            return true
+        }
+        val doc = Jsoup.parseBodyFragment(htmlText)
+        for (element in doc!!.body()!!.childNodes()!!) {
+            println(element)
+            if (element.nodeName() !== "#text") {
+                return true
+            }
+        }
+        return false
+    }
+
     public fun converter(htmlText : String, startDepth : Int = 0): String {
         val str = StringBuilder()
         if (hasBodyTag(htmlText)) {
@@ -58,7 +73,7 @@ public object KaraHTMLConverter {
     }
 
     private fun spaces(depth : Int) : String {
-        return " ".repeat(depth * DEPTH_SPACE_COUNT)
+        return "\t".repeat(depth)
     }
 
     private fun getTrimLines(text : String): List<String> {
