@@ -1,4 +1,4 @@
-package org.jetbrains.kara.plugin.converter.copy;/*
+/*
  * Copyright 2010-2013 JetBrains s.r.o.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,14 +14,17 @@ package org.jetbrains.kara.plugin.converter.copy;/*
  * limitations under the License.
  */
 
+package org.jetbrains.kara.plugin.converter.copy;
+
 import com.intellij.codeInsight.editorActions.TextBlockTransferableData;
 import org.jetbrains.annotations.NotNull;
 
 import java.awt.datatransfer.DataFlavor;
 
 class ConvertedCode implements TextBlockTransferableData {
-    @NotNull
-    public static final DataFlavor DATA_FLAVOR = new DataFlavor(KaraCopyPastePostProcessor.class, "class: org.jetbrains.kara.plugin.converter.KaraCopyPastePostProcessor");
+    private static final DataFlavor DATA_FLAVOR =
+            new DataFlavor(KaraCopyPastePostProcessor.class, "class: " + KaraCopyPastePostProcessor.class.getCanonicalName());
+
     private final String data;
 
     ConvertedCode(String data) {

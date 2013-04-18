@@ -1,0 +1,5 @@
+<root>
+    <item name='org.jsoup.Jsoup org.jsoup.nodes.Document parseBodyFragment(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

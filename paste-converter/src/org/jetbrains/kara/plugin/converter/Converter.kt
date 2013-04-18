@@ -35,14 +35,14 @@ fun Node.getType(): NodeType {
 }
 
 public object KaraHTMLConverter {
-    val HTML_BODY_PATTERN = Pattern.compile("(<body[ >])", Pattern.CASE_INSENSITIVE)
+    val HTML_BODY_PATTERN = Pattern.compile("(<body[\\s>])", Pattern.CASE_INSENSITIVE)
 
-    public fun itMayContentHTML(htmlText : String): Boolean {
-        if (hasBodyTag(htmlText)) {
+    public fun itMayContentHTML(text: String): Boolean {
+        if (hasBodyTag(text)) {
             return true
         }
-        val doc = Jsoup.parseBodyFragment(htmlText)
-        for (element in doc!!.body()!!.childNodes()!!) {
+        val doc = Jsoup.parseBodyFragment(text)
+        for (element in doc.body()!!.childNodes()!!) {
             if (element.nodeName() !== "#text") {
                 return true
             }
@@ -77,11 +77,7 @@ public object KaraHTMLConverter {
         val trimText = text.trim()
         if (trimText.isEmpty()) return Collections.emptyList()
 
-        val lines = ArrayList<String>()
-        for (line in trimText.split('\n')) {
-            lines.add(line.trim())
-        }
-        return lines
+        return trimText.split('\n').map { s -> s.trim() }
     }
 
     private fun dataConverter(text : String, depth :  Int): String {
@@ -95,13 +91,13 @@ public object KaraHTMLConverter {
     private fun textConverter(text : String, depth :  Int): String {
         val str = StringBuilder()
         for (line in getTrimLines(text)) {
-            str.append(spaces(depth)).append("+\"").append(line).append("\"\n")
+            str.append(spaces(depth)).append("+\"$line\"\n")
         }
         return str.toString()
     }
 
     private class KaraConvertNodeVisitor(val stringBuilder : StringBuilder, val startDepth : Int) : NodeVisitor {
-        public override fun head(node: Node?, depth: Int) {
+        override fun head(node: Node?, depth: Int) {
             val realDepth = depth + startDepth
             when (node!!.getType()) {
                 document, doctype -> {}
@@ -127,12 +123,10 @@ public object KaraHTMLConverter {
                         stringBuilder.append("\n")
                     }
                 }
-
-                else -> throw IllegalStateException()
             }
         }
 
-        public override fun tail(node: Node?, depth: Int) {
+        override fun tail(node: Node?, depth: Int) {
             val realDepth = depth + startDepth
             when (node!!.getType()) {
                 document, doctype -> {}
@@ -142,8 +136,6 @@ public object KaraHTMLConverter {
                 element -> {
                     if (node.childNodeSize() != 0) stringBuilder.append(spaces(realDepth)).append("}\n")
                 }
-
-                else -> throw IllegalStateException()
             }
         }
     }

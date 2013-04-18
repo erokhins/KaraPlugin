@@ -23,36 +23,36 @@ import java.awt.datatransfer.Transferable;
  */
 
 public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBlockTransferableData> {
-    private static final Logger LOG = Logger.getInstance("#org.jetbrains.jet.plugin.conversion.copy.org.jetbrains.kara.plugin.converter.KaraCopyPastePostProcessor");
+    private static final Logger LOG = Logger.getInstance(KaraCopyPastePostProcessor.class);
 
-    @Nullable
     @Override
     public TextBlockTransferableData collectTransferableData(PsiFile psiFile, Editor editor, int[] ints, int[] ints2) {
         return null;
     }
 
-    private boolean isContainHTML(Transferable content) {
+    private boolean containsHtml(Transferable content) {
         try {
             String text = (String) content.getTransferData(DataFlavor.stringFlavor);
             if (KaraHTMLConverter.instance$.itMayContentHTML(text)) {
                 return true;
             }
-        } catch (Throwable e) {
+        }
+        catch (Throwable e) {
             LOG.error(e);
         }
         return false;
     }
 
-    @Nullable
     @Override
     public TextBlockTransferableData extractTransferableData(Transferable content) {
         try {
-            if (isContainHTML(content)) {
+            if (containsHtml(content)) {
                 String text = (String) content.getTransferData(DataFlavor.stringFlavor);
                 String newText = KaraHTMLConverter.instance$.converter(text, 0);
                 return new ConvertedCode(newText);
             }
-        } catch (Throwable e) {
+        }
+        catch (Throwable e) {
             LOG.error(e);
         }
         return null;
