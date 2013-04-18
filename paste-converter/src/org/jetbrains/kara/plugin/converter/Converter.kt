@@ -39,13 +39,11 @@ public object KaraHTMLConverter {
     val HTML_BODY_PATTERN = Pattern.compile("(<body[ >])", Pattern.CASE_INSENSITIVE)
 
     public fun itMayContentHTML(htmlText : String): Boolean {
-
         if (hasBodyTag(htmlText)) {
             return true
         }
         val doc = Jsoup.parseBodyFragment(htmlText)
         for (element in doc!!.body()!!.childNodes()!!) {
-            println(element)
             if (element.nodeName() !== "#text") {
                 return true
             }

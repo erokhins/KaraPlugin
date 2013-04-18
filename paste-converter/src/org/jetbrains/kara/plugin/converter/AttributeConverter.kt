@@ -17,8 +17,8 @@ private object KaraAttributeConverter {
         styleAttr = "main1 btn-info"
         @return  main1 + btn_info
     */
-    private fun styleClasses(styleAttr : String): String {
-        val classes = styleAttr.split(' ')
+    private fun styleClasses(value: String): String {
+        val classes = value.split(' ')
         val str = StringBuilder()
         for (styleClass in classes) {
             if (str.length() != 0) {
@@ -30,17 +30,22 @@ private object KaraAttributeConverter {
         return str.toString()
     }
 
+    private fun inputType(value: String): String {
+        return "InputType." + value
+    }
+
     public fun attributesConverter(attributes : Attributes): String {
         val str = StringBuilder()
         for (attr in attributes.asList()!!) {
             if (str.length() > 0) {
                 str.append(", ")
             }
-            if (attr.getKey().equals("class")) {
-                str.append("c = ").append(styleClasses(attr.getValue()))
-                continue
+            when (attr.getKey()) {
+                "class" -> str.append("c = ").append(styleClasses(attr.getValue()))
+
+                "type" ->  str.append("inputType = ").append(inputType(attr.getValue()))
+                else -> str.append(attr.getKey()).append(" = \"").append(attr.getValue()).append("\"")
             }
-            str.append(attr.getKey()).append(" = \"").append(attr.getValue()).append("\"")
         }
         return str.toString()
     }

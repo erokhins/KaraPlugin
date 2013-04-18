@@ -81,4 +81,17 @@ public class Simple {
         );
     }
 
+    test fun buttonTest() {
+        runTest(
+            """
+                <button type="submit" class="btn">Submit</button>
+            """,
+            """
+                button(inputType = InputType.submit, c = btn) {
+                ${t}+"Submit"
+                }
+            """
+        )
+    }
+
 }
