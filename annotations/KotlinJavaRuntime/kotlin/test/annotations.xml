@@ -1,0 +1,38 @@
+<root>
+    <item name='kotlin.test.TestPackage void assertTrue(java.lang.String, jet.Function0&lt;? extends java.lang.Boolean&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestPackage.src.Test.1449221859 void assertTrue(java.lang.String, jet.Function0&lt;? extends java.lang.Boolean&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestPackage.src.Test.1449221859 void expect(T, jet.Function0&lt;? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestPackage.src.TestJVM.1538250154 T failsWith(java.lang.Class&lt;T&gt;, jet.Function0&lt;? extends java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestPackage.src.TestJVM.1538250154 T failsWith(java.lang.Class&lt;T&gt;, jet.Function0&lt;? extends java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestPackage.src.Test.1449221859 void expect(T, java.lang.String, jet.Function0&lt;? extends T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestPackage void expect(T, java.lang.String, jet.Function0&lt;? extends T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestPackage T failsWith(java.lang.Class&lt;T&gt;, jet.Function0&lt;? extends java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestPackage void assertTrue(jet.Function0&lt;? extends java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestPackage void expect(T, jet.Function0&lt;? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestPackage T failsWith(java.lang.Class&lt;T&gt;, jet.Function0&lt;? extends java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestPackage.src.Test.1449221859 void assertTrue(jet.Function0&lt;? extends java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

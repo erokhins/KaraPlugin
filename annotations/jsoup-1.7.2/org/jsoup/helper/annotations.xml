@@ -1,0 +1,263 @@
+<root>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection url(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection parser(org.jsoup.parser.Parser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection followRedirects(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.DescendableLinkedList java.util.Iterator&lt;E&gt; descendingIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection method(org.jsoup.Connection.Method) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jsoup.helper.Validate void noNullElements(java.lang.Object[], java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection url(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.DataUtil org.jsoup.nodes.Document load(java.io.InputStream, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection referrer(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request org.jsoup.Connection.Request parser(org.jsoup.parser.Parser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection cookies(java.util.Map&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.KeyVal org.jsoup.helper.HttpConnection.KeyVal create(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection connect(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection cookies(java.util.Map&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection method(org.jsoup.Connection.Method)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request org.jsoup.Connection.Request timeout(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.KeyVal org.jsoup.helper.HttpConnection.KeyVal key(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection maxBodySize(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request org.jsoup.helper.HttpConnection.Request data(org.jsoup.Connection.KeyVal)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection data(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection request(org.jsoup.Connection.Request)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request java.lang.String cookie(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.DataUtil org.jsoup.nodes.Document load(java.io.InputStream, java.lang.String, java.lang.String, org.jsoup.parser.Parser) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.DataUtil org.jsoup.nodes.Document load(java.io.File, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection data(java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request org.jsoup.Connection.Request ignoreContentType(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.KeyVal org.jsoup.Connection.KeyVal value(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Response org.jsoup.nodes.Document parse()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection userAgent(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.KeyVal org.jsoup.helper.HttpConnection.KeyVal value(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection cookie(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request org.jsoup.Connection.Request followRedirects(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Response boolean hasHeader(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.DataUtil org.jsoup.nodes.Document load(java.io.InputStream, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request java.lang.String header(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection header(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection userAgent(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.DataUtil org.jsoup.nodes.Document load(java.io.InputStream, java.lang.String, java.lang.String, org.jsoup.parser.Parser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request org.jsoup.Connection.Request data(org.jsoup.Connection.KeyVal) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection url(java.net.URL) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Response java.lang.String cookie(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.KeyVal org.jsoup.Connection.KeyVal key(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.Validate void notEmpty(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.KeyVal org.jsoup.Connection.KeyVal key(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request boolean hasHeader(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Response java.lang.String header(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection header(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection timeout(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.Validate void notNull(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request org.jsoup.Connection.Request maxBodySize(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.Validate void notNull(java.lang.Object, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.KeyVal org.jsoup.helper.HttpConnection.KeyVal create(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.StringUtil java.lang.String normaliseWhitespace(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection header(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection data(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.StringUtil java.lang.String join(java.util.Iterator, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.Validate void notEmpty(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection data(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection data(java.util.Map&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request org.jsoup.helper.HttpConnection.Request timeout(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection cookie(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request org.jsoup.helper.HttpConnection.Request data(org.jsoup.Connection.KeyVal) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.Validate void noNullElements(java.lang.Object[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection response(org.jsoup.Connection.Response)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request org.jsoup.Connection.Request data(org.jsoup.Connection.KeyVal)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request org.jsoup.helper.HttpConnection.Request parser(org.jsoup.parser.Parser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.StringUtil java.lang.String join(java.util.Collection, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection ignoreHttpErrors(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.KeyVal org.jsoup.helper.HttpConnection.KeyVal key(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection url(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.StringUtil boolean in(java.lang.String, java.lang.String...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.KeyVal org.jsoup.Connection.KeyVal value(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection data(java.util.Map&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection connect(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection referrer(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection ignoreContentType(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.KeyVal org.jsoup.helper.HttpConnection.KeyVal create(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.Request org.jsoup.Connection.Request ignoreHttpErrors(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection cookie(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection org.jsoup.Connection data(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.helper.HttpConnection.KeyVal org.jsoup.helper.HttpConnection.KeyVal value(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="jet.ByteProgression java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ByteProgression jet.ByteIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ByteRange boolean contains(java.lang.Byte) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ByteRange boolean contains(java.lang.Comparable) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ByteRange java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ByteRange jet.ByteIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.CharProgression java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.CharProgression jet.CharIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.CharRange boolean contains(java.lang.Character) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.CharRange boolean contains(java.lang.Comparable) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.CharRange java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.CharRange jet.CharIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.DoubleProgression java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.DoubleProgression jet.DoubleIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.DoubleRange boolean contains(java.lang.Comparable) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.DoubleRange boolean contains(java.lang.Double) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.DoubleRange java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.DoubleRange jet.DoubleIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction0 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction1 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction10 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction11 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction12 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction13 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction14 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction15 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction16 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction17 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction18 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction19 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction2 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction20 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction21 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction22 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction3 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction4 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction5 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction6 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction7 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction8 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ExtensionFunction9 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.FloatProgression java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.FloatProgression jet.FloatIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.FloatRange boolean contains(java.lang.Comparable) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.FloatRange boolean contains(java.lang.Float) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.FloatRange java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.FloatRange jet.FloatIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function0 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function1 R invoke(D1) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="jet.Function1 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function10 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function11 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function12 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function13 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function14 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function15 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function16 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function17 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function18 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function19 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function2 R invoke(D1, D2) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="jet.Function2 R invoke(D1, D2) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="jet.Function2 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function20 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function21 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function22 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function3 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function4 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function5 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function6 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function7 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function8 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Function9 java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.IntProgression java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.IntProgression jet.IntIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.IntRange boolean contains(java.lang.Comparable) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.IntRange boolean contains(java.lang.Integer) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.IntRange java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.IntRange jet.IntIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.LongProgression java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.LongProgression jet.LongIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.LongRange boolean contains(java.lang.Comparable) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.LongRange boolean contains(java.lang.Long) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.LongRange java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.LongRange jet.LongIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Range boolean contains(T) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="jet.ShortProgression java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ShortProgression jet.ShortIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ShortRange boolean contains(java.lang.Comparable) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ShortRange boolean contains(java.lang.Short) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ShortRange java.util.Iterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.ShortRange jet.ShortIterator iterator()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="jet.Unit java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+</root>
+

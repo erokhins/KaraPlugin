@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="org.jsoup.parser.Parser java.lang.String unescapeEntities(java.lang.String, boolean) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser java.util.List&lt;org.jsoup.nodes.Node&gt; parseXmlFragment(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser java.util.List&lt;org.jsoup.nodes.Node&gt; parseXmlFragment(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser org.jsoup.nodes.Document parse(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser org.jsoup.nodes.Document parse(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser org.jsoup.nodes.Document parseBodyFragment(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser org.jsoup.nodes.Document parseBodyFragment(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser org.jsoup.nodes.Document parseBodyFragmentRelaxed(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser org.jsoup.nodes.Document parseBodyFragmentRelaxed(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser org.jsoup.nodes.Document parseInput(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser org.jsoup.nodes.Document parseInput(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser org.jsoup.parser.Parser htmlParser()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser org.jsoup.parser.Parser setTrackErrors(int)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser org.jsoup.parser.Parser setTreeBuilder(org.jsoup.parser.TreeBuilder)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Parser org.jsoup.parser.Parser xmlParser()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Tag org.jsoup.parser.Tag valueOf(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.Tag org.jsoup.parser.Tag valueOf(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.TokenQueue TokenQueue(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.TokenQueue boolean matchChomp(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.TokenQueue boolean matches(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.TokenQueue boolean matchesAny(java.lang.String...) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.TokenQueue java.lang.String chompTo(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.TokenQueue java.lang.String chompToIgnoreCase(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.TokenQueue java.lang.String consumeToIgnoreCase(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.TokenQueue java.lang.String unescape(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.TokenQueue void addFirst(java.lang.Character) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.TokenQueue void consume(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.XmlTreeBuilder boolean process(org.jsoup.parser.Token) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.XmlTreeBuilder void initialiseParse(java.lang.String, java.lang.String, org.jsoup.parser.ParseErrorList) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.parser.XmlTreeBuilder void initialiseParse(java.lang.String, java.lang.String, org.jsoup.parser.ParseErrorList) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+</root>
+

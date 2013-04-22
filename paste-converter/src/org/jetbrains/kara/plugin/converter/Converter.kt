@@ -58,7 +58,7 @@ public object KaraHTMLConverter {
             NodeTraversor(KaraConvertNodeVisitor(str, startDepth)).traverse(doc.body())
         } else {
             val doc = Jsoup.parseBodyFragment(htmlText)
-            for (element in doc!!.body()!!.childNodes()!!) {
+            for (element in doc.body()!!.childNodes()!!) {
                 NodeTraversor(KaraConvertNodeVisitor(str, startDepth)).traverse(element)
             }
         }
@@ -97,9 +97,9 @@ public object KaraHTMLConverter {
     }
 
     private class KaraConvertNodeVisitor(val stringBuilder : StringBuilder, val startDepth : Int) : NodeVisitor {
-        override fun head(node: Node?, depth: Int) {
+        override fun head(node: Node, depth: Int) {
             val realDepth = depth + startDepth
-            when (node!!.getType()) {
+            when (node.getType()) {
                 document, doctype -> {}
                 text -> {
                     val convertedText = textConverter(node.attr("text")!!, realDepth)
@@ -126,9 +126,9 @@ public object KaraHTMLConverter {
             }
         }
 
-        override fun tail(node: Node?, depth: Int) {
+        override fun tail(node: Node, depth: Int) {
             val realDepth = depth + startDepth
-            when (node!!.getType()) {
+            when (node.getType()) {
                 document, doctype -> {}
                 text -> {}
                 comment -> stringBuilder.append(spaces(realDepth)).append("*/\n")

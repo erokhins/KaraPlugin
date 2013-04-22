@@ -1,0 +1,14 @@
+<root>
+    <item name='kotlin.util.UtilPackage.src.System.-1219207146 long measureTimeNano(jet.Function0&lt;? extends jet.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.util.UtilPackage long measureTimeMillis(jet.Function0&lt;? extends jet.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.util.UtilPackage.src.System.-1219207146 long measureTimeMillis(jet.Function0&lt;? extends jet.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.util.UtilPackage long measureTimeNano(jet.Function0&lt;? extends jet.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

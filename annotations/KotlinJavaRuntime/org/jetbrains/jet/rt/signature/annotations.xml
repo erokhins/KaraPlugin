@@ -1,0 +1,182 @@
+<root>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureVisitor org.jetbrains.jet.rt.signature.JetSignatureVisitor visitFormalTypeParameter(java.lang.String, jet.typeinfo.TypeInfoVariance, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureAdapter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitSuperclass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureAdapter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitFormalTypeParameter(java.lang.String, jet.typeinfo.TypeInfoVariance, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureAdapter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitFormalTypeParameter(java.lang.String, jet.typeinfo.TypeInfoVariance, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureVisitor org.jetbrains.jet.rt.signature.JetSignatureVisitor visitTypeArgument(org.jetbrains.jet.rt.signature.JetSignatureVariance)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureVisitor org.jetbrains.jet.rt.signature.JetSignatureVisitor visitInterface()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureVisitor org.jetbrains.jet.rt.signature.JetSignatureVisitor visitArrayType(boolean, org.jetbrains.jet.rt.signature.JetSignatureVariance)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureVisitor org.jetbrains.jet.rt.signature.JetSignatureVisitor visitSuperclass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitClassBound()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitArrayType(boolean, org.jetbrains.jet.rt.signature.JetSignatureVariance)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitFormalTypeParameter(java.lang.String, jet.typeinfo.TypeInfoVariance, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitFormalTypeParameter(java.lang.String, jet.typeinfo.TypeInfoVariance, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureVisitor org.jetbrains.jet.rt.signature.JetSignatureVisitor visitParameterType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureAdapter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitClassBound()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitSuperclass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureAdapter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitInterfaceBound()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureAdapter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitExceptionType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureReader int acceptType(org.jetbrains.jet.rt.signature.JetSignatureVisitor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitInterface()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureWriter visitReturnType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitTypeArgument(org.jetbrains.jet.rt.signature.JetSignatureVariance)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureExceptionsAdapter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitFormalTypeParameter(java.lang.String, jet.typeinfo.TypeInfoVariance, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitReturnType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureAdapter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitInterface()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureVisitor org.jetbrains.jet.rt.signature.JetSignatureVisitor visitExceptionType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureVisitor org.jetbrains.jet.rt.signature.JetSignatureVisitor visitInterfaceBound()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureVisitor org.jetbrains.jet.rt.signature.JetSignatureVisitor visitFormalTypeParameter(java.lang.String, jet.typeinfo.TypeInfoVariance, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureWriter visitArrayType(boolean, org.jetbrains.jet.rt.signature.JetSignatureVariance)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureVisitor org.jetbrains.jet.rt.signature.JetSignatureVisitor visitClassBound()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitInterfaceBound()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureVariance org.jetbrains.jet.rt.signature.JetSignatureVariance parseVariance(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureWriter visitExceptionType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureReader void accept(org.jetbrains.jet.rt.signature.JetSignatureVisitor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureWriter visitInterface()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureAdapter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitArrayType(boolean, org.jetbrains.jet.rt.signature.JetSignatureVariance)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureWriter visitInterfaceBound()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureVisitor org.jetbrains.jet.rt.signature.JetSignatureVisitor visitReturnType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitExceptionType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureAdapter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitTypeArgument(org.jetbrains.jet.rt.signature.JetSignatureVariance)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureWriter visitSuperclass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureWriter visitParameterType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureAdapter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitParameterType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureReader void acceptTypeOnly(org.jetbrains.jet.rt.signature.JetSignatureVisitor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureWriter visitTypeArgument(org.jetbrains.jet.rt.signature.JetSignatureVariance)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureWriter visitClassBound()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureAdapter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitReturnType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.jet.rt.signature.JetSignatureWriter org.jetbrains.jet.rt.signature.JetSignatureVisitor visitParameterType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

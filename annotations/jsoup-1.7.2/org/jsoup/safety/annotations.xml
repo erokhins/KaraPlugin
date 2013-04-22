@@ -1,0 +1,74 @@
+<root>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addEnforcedAttribute(java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addTags(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addAttributes(java.lang.String, java.lang.String...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist basicWithImages()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addTags(java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist boolean isSafeTag(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Cleaner org.jsoup.nodes.Document clean(org.jsoup.nodes.Document) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist basic()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addAttributes(java.lang.String, java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist preserveRelativeLinks(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Cleaner boolean isValid(org.jsoup.nodes.Document) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addAttributes(java.lang.String, java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addEnforcedAttribute(java.lang.String, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addEnforcedAttribute(java.lang.String, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist none()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addProtocols(java.lang.String, java.lang.String, java.lang.String...) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist relaxed()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addProtocols(java.lang.String, java.lang.String, java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addProtocols(java.lang.String, java.lang.String, java.lang.String...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addEnforcedAttribute(java.lang.String, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Cleaner Cleaner(org.jsoup.safety.Whitelist) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Cleaner org.jsoup.nodes.Document clean(org.jsoup.nodes.Document)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist simpleText()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jsoup.safety.Whitelist org.jsoup.safety.Whitelist addProtocols(java.lang.String, java.lang.String, java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

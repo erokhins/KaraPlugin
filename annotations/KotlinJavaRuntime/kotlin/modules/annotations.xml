@@ -1,0 +1,26 @@
+<root>
+    <item name='kotlin.modules.ModulesPackage void module(java.lang.String, jet.ExtensionFunction0&lt;? super kotlin.modules.ModuleBuilder,? extends jet.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.modules.ModulesPackage.src.ModuleBuilder.1309535371 void module(java.lang.String, jet.ExtensionFunction0&lt;? super kotlin.modules.ModuleBuilder,? extends jet.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.modules.ModuleBuilder kotlin.modules.ClasspathBuilder getClasspath()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.modules.ModuleBuilder java.util.List&lt;java.lang.String&gt; getAnnotationsRoots()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.modules.ModuleBuilder kotlin.modules.AnnotationsPathBuilder getAnnotationsPath()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.modules.ModuleBuilder java.util.List&lt;java.lang.String&gt; getClasspathRoots()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.modules.ModuleBuilder java.util.List&lt;java.lang.String&gt; getSourceFiles()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.modules.ModuleBuilder kotlin.modules.SourcesBuilder getSources()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

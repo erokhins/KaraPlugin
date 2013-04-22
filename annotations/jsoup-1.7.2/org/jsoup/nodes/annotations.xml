@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="org.jsoup.nodes.Attribute Attribute(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attribute Attribute(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attribute java.lang.Object setValue(java.lang.Object) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attribute java.lang.String setValue(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attribute org.jsoup.nodes.Attribute createFromEncoded(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attribute org.jsoup.nodes.Attribute createFromEncoded(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attribute org.jsoup.nodes.Attribute createFromEncoded(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attribute void html(java.lang.StringBuilder, org.jsoup.nodes.Document.OutputSettings) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attribute void html(java.lang.StringBuilder, org.jsoup.nodes.Document.OutputSettings) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attribute void setKey(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attributes java.lang.Object clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attributes java.lang.String get(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attributes java.util.Map&lt;java.lang.String,java.lang.String&gt; dataset()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attributes org.jsoup.nodes.Attributes clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attributes void addAll(org.jsoup.nodes.Attributes) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attributes void put(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attributes void put(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attributes void put(org.jsoup.nodes.Attribute) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Attributes void remove(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Comment Comment(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Comment Comment(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Comment java.lang.String nodeName()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.DataNode DataNode(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.DataNode DataNode(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.DataNode java.lang.String nodeName()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.DataNode org.jsoup.nodes.DataNode createFromEncoded(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.DataNode org.jsoup.nodes.DataNode createFromEncoded(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.DataNode org.jsoup.nodes.DataNode createFromEncoded(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.DataNode org.jsoup.nodes.DataNode setWholeData(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.DataNode org.jsoup.nodes.DataNode setWholeData(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document Document(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document java.lang.Object clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document java.lang.String nodeName()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Document clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Document createShell(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Document createShell(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Document normalise()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Document outputSettings(org.jsoup.nodes.Document.OutputSettings)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Document outputSettings(org.jsoup.nodes.Document.OutputSettings) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Document quirksMode(org.jsoup.nodes.Document.QuirksMode)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Element clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Element createElement(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Element createElement(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Element text(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Element text(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document org.jsoup.nodes.Node clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document void title(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document.OutputSettings java.lang.Object clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document.OutputSettings org.jsoup.nodes.Document.OutputSettings charset(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document.OutputSettings org.jsoup.nodes.Document.OutputSettings charset(java.nio.charset.Charset)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document.OutputSettings org.jsoup.nodes.Document.OutputSettings charset(java.nio.charset.Charset) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document.OutputSettings org.jsoup.nodes.Document.OutputSettings clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document.OutputSettings org.jsoup.nodes.Document.OutputSettings escapeMode(org.jsoup.nodes.Entities.EscapeMode)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document.OutputSettings org.jsoup.nodes.Document.OutputSettings indentAmount(int)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document.OutputSettings org.jsoup.nodes.Document.OutputSettings outline(boolean)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Document.OutputSettings org.jsoup.nodes.Document.OutputSettings prettyPrint(boolean)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.DocumentType DocumentType(java.lang.String, java.lang.String, java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.DocumentType DocumentType(java.lang.String, java.lang.String, java.lang.String, java.lang.String) 3">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.DocumentType java.lang.String nodeName()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element Element(org.jsoup.parser.Tag, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element Element(org.jsoup.parser.Tag, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element Element(org.jsoup.parser.Tag, java.lang.String, org.jsoup.nodes.Attributes) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element Element(org.jsoup.parser.Tag, java.lang.String, org.jsoup.nodes.Attributes) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element Element(org.jsoup.parser.Tag, java.lang.String, org.jsoup.nodes.Attributes) 2">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element java.lang.Object clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element java.lang.String id()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element java.lang.String nodeName()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.nodes.Element java.util.Map&lt;java.lang.String,java.lang.String&gt; dataset()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element addClass(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element addClass(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element after(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element after(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element after(org.jsoup.nodes.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element after(org.jsoup.nodes.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element append(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element append(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element appendChild(org.jsoup.nodes.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element appendChild(org.jsoup.nodes.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element appendElement(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element appendElement(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element appendText(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element attr(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element attr(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element attr(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element before(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element before(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element before(org.jsoup.nodes.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element before(org.jsoup.nodes.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element classNames(java.util.Set&lt;java.lang.String&gt;)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element classNames(java.util.Set&lt;java.lang.String&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element empty()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element getElementById(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element html(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element html(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element insertChildren(int, java.util.Collection&lt;? extends org.jsoup.nodes.Node&gt;)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element insertChildren(int, java.util.Collection&lt;? extends org.jsoup.nodes.Node&gt;) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element prepend(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element prepend(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element prependChild(org.jsoup.nodes.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element prependChild(org.jsoup.nodes.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element prependElement(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element prependElement(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element prependText(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element removeClass(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element removeClass(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element tagName(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element tagName(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element text(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element text(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element toggleClass(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element toggleClass(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element val(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element val(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Element wrap(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node after(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node after(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node after(org.jsoup.nodes.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node after(org.jsoup.nodes.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node attr(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node attr(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node attr(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node before(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node before(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node before(org.jsoup.nodes.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node before(org.jsoup.nodes.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.nodes.Node wrap(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements children()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getAllElements()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttribute(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeStarting(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValue(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValue(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValue(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueContaining(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueContaining(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueContaining(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueEnding(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueEnding(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueEnding(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueMatching(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueMatching(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueMatching(java.lang.String, java.util.regex.Pattern)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueMatching(java.lang.String, java.util.regex.Pattern) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueNot(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueNot(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueNot(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueStarting(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueStarting(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByAttributeValueStarting(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByClass(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByClass(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByIndexEquals(int)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByIndexGreaterThan(int)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByIndexLessThan(int)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsByTag(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsContainingOwnText(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsContainingOwnText(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsContainingText(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsContainingText(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsMatchingOwnText(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsMatchingOwnText(java.util.regex.Pattern)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsMatchingText(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements getElementsMatchingText(java.util.regex.Pattern)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements parents()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements select(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Element org.jsoup.select.Elements siblingElements()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node Node(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node Node(java.lang.String, org.jsoup.nodes.Attributes) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node Node(java.lang.String, org.jsoup.nodes.Attributes) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node boolean hasAttr(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node java.lang.Object clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node java.lang.String absUrl(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node java.lang.String attr(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node java.lang.String nodeName()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.nodes.Node java.util.List&lt;org.jsoup.nodes.Node&gt; childNodesCopy()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node after(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node after(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node after(org.jsoup.nodes.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node after(org.jsoup.nodes.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node attr(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node attr(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node attr(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node before(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node before(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node before(org.jsoup.nodes.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node before(org.jsoup.nodes.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node clone()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node doClone(org.jsoup.nodes.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node removeAttr(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node removeAttr(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node traverse(org.jsoup.select.NodeVisitor)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node traverse(org.jsoup.select.NodeVisitor) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node org.jsoup.nodes.Node wrap(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node void addChildren(int, org.jsoup.nodes.Node...) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node void addChildren(org.jsoup.nodes.Node...) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node void indent(java.lang.StringBuilder, int, org.jsoup.nodes.Document.OutputSettings) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node void indent(java.lang.StringBuilder, int, org.jsoup.nodes.Document.OutputSettings) 2">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node void removeChild(org.jsoup.nodes.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node void replaceChild(org.jsoup.nodes.Node, org.jsoup.nodes.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node void replaceChild(org.jsoup.nodes.Node, org.jsoup.nodes.Node) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node void replaceWith(org.jsoup.nodes.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.Node void setBaseUri(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode boolean hasAttr(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode java.lang.String absUrl(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode java.lang.String attr(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode java.lang.String nodeName()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode org.jsoup.nodes.Node attr(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode org.jsoup.nodes.Node attr(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode org.jsoup.nodes.Node attr(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode org.jsoup.nodes.Node removeAttr(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode org.jsoup.nodes.Node removeAttr(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode createFromEncoded(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode createFromEncoded(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode splitText(int)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode text(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.XmlDeclaration XmlDeclaration(java.lang.String, java.lang.String, boolean) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.XmlDeclaration XmlDeclaration(java.lang.String, java.lang.String, boolean) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.nodes.XmlDeclaration java.lang.String nodeName()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+</root>
+

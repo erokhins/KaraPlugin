@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="org.jsoup.Connection org.jsoup.Connection cookie(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection cookie(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection cookie(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection cookies(java.util.Map&lt;java.lang.String,java.lang.String&gt;)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection cookies(java.util.Map&lt;java.lang.String,java.lang.String&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection data(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection data(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection data(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection data(java.lang.String...)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection data(java.lang.String...) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection data(java.util.Map&lt;java.lang.String,java.lang.String&gt;)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection data(java.util.Map&lt;java.lang.String,java.lang.String&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection followRedirects(boolean)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection header(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection header(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection header(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection ignoreContentType(boolean)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection ignoreHttpErrors(boolean)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection maxBodySize(int)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection method(org.jsoup.Connection.Method)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection method(org.jsoup.Connection.Method) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection parser(org.jsoup.parser.Parser)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection referrer(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection referrer(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection request(org.jsoup.Connection.Request)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection response(org.jsoup.Connection.Response)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection timeout(int)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection url(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection url(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection url(java.net.URL)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection url(java.net.URL) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection userAgent(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection org.jsoup.Connection userAgent(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T cookie(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T cookie(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T cookie(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T header(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T header(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T header(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T method(org.jsoup.Connection.Method)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T method(org.jsoup.Connection.Method) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T removeCookie(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T removeHeader(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T removeHeader(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T url(java.net.URL)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base T url(java.net.URL) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base boolean hasHeader(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base java.lang.String cookie(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Base java.lang.String header(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.KeyVal org.jsoup.Connection.KeyVal key(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.KeyVal org.jsoup.Connection.KeyVal key(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.KeyVal org.jsoup.Connection.KeyVal value(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.KeyVal org.jsoup.Connection.KeyVal value(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Request org.jsoup.Connection.Request data(org.jsoup.Connection.KeyVal)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Request org.jsoup.Connection.Request data(org.jsoup.Connection.KeyVal) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Request org.jsoup.Connection.Request followRedirects(boolean)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Request org.jsoup.Connection.Request ignoreContentType(boolean)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Request org.jsoup.Connection.Request ignoreHttpErrors(boolean)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Request org.jsoup.Connection.Request maxBodySize(int)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Request org.jsoup.Connection.Request parser(org.jsoup.parser.Parser)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Request org.jsoup.Connection.Request timeout(int)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Connection.Response org.jsoup.nodes.Document parse()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="org.jsoup.Jsoup boolean isValid(java.lang.String, org.jsoup.safety.Whitelist) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup java.lang.String clean(java.lang.String, java.lang.String, org.jsoup.safety.Whitelist) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup java.lang.String clean(java.lang.String, java.lang.String, org.jsoup.safety.Whitelist) 2">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup java.lang.String clean(java.lang.String, java.lang.String, org.jsoup.safety.Whitelist, org.jsoup.nodes.Document.OutputSettings) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup java.lang.String clean(java.lang.String, java.lang.String, org.jsoup.safety.Whitelist, org.jsoup.nodes.Document.OutputSettings) 2">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup java.lang.String clean(java.lang.String, java.lang.String, org.jsoup.safety.Whitelist, org.jsoup.nodes.Document.OutputSettings) 3">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup java.lang.String clean(java.lang.String, org.jsoup.safety.Whitelist) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.Connection connect(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.io.File, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.io.File, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.io.File, java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.io.InputStream, java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.io.InputStream, java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.io.InputStream, java.lang.String, java.lang.String, org.jsoup.parser.Parser)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.io.InputStream, java.lang.String, java.lang.String, org.jsoup.parser.Parser) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.lang.String, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.lang.String, java.lang.String, org.jsoup.parser.Parser) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.lang.String, java.lang.String, org.jsoup.parser.Parser) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parse(java.lang.String, java.lang.String, org.jsoup.parser.Parser) 2">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parseBodyFragment(java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parseBodyFragment(java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="org.jsoup.Jsoup org.jsoup.nodes.Document parseBodyFragment(java.lang.String, java.lang.String) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+</root>
+
