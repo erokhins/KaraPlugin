@@ -21,13 +21,13 @@ import org.jetbrains.annotations.NotNull;
 
 import java.awt.datatransfer.DataFlavor;
 
-class ConvertedCode implements TextBlockTransferableData {
+class KaraCode implements TextBlockTransferableData {
     private static final DataFlavor DATA_FLAVOR =
             new DataFlavor(KaraCopyPastePostProcessor.class, "class: " + KaraCopyPastePostProcessor.class.getCanonicalName());
 
     private final String data;
 
-    ConvertedCode(String data) {
+    KaraCode(String data) {
         this.data = data;
     }
 

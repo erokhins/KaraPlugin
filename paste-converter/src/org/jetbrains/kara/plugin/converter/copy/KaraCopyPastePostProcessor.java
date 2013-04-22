@@ -28,7 +28,6 @@ import com.intellij.psi.PsiDocumentManager;
 import com.intellij.psi.PsiFile;
 
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 import org.jetbrains.kara.plugin.converter.KaraHTMLConverter;
 
 import java.awt.datatransfer.DataFlavor;
@@ -38,7 +37,7 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
     private static final Logger LOG = Logger.getInstance(KaraCopyPastePostProcessor.class);
 
     @Override
-    public TextBlockTransferableData collectTransferableData(PsiFile psiFile, Editor editor, int[] ints, int[] ints2) {
+    public TextBlockTransferableData collectTransferableData(final PsiFile file, final Editor editor, final int[] startOffsets, final int[] endOffsets) {
         return null;
     }
 
@@ -61,7 +60,7 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
             if (containsHtml(content)) {
                 String text = (String) content.getTransferData(DataFlavor.stringFlavor);
                 String newText = KaraHTMLConverter.instance$.converter(text, 0);
-                return new ConvertedCode(newText);
+                return new KaraCode(newText);
             }
         }
         catch (Throwable e) {
@@ -71,7 +70,8 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
     }
 
     @Override
-    public void processTransferableData(Project project, final Editor editor, final RangeMarker bounds, int i, Ref<Boolean> booleanRef, TextBlockTransferableData value) {
+    public void processTransferableData(final Project project, final Editor editor, final RangeMarker bounds,
+                                        int caretOffset, Ref<Boolean> indented, final TextBlockTransferableData value) {
         try {
             final PsiFile file = PsiDocumentManager.getInstance(project).getPsiFile(editor.getDocument());
             if (file == null) {
@@ -79,8 +79,8 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
             }
             boolean needConvert = okFromDialog(project);
             if (needConvert) {
-                if (value instanceof ConvertedCode) {
-                    final String text = ((ConvertedCode) value).getData();
+                if (value instanceof KaraCode) {
+                    final String text = ((KaraCode) value).getData();
                     ApplicationManager.getApplication().runWriteAction(new Runnable() {
                         @Override
                         public void run() {
