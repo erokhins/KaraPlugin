@@ -1,6 +1,6 @@
 <idea-plugin version="2">
   <id>com.yourcompany.unique.plugin.id</id>
-  <name>KaraPlugin</name>
+  <name>Plugin display name here</name>
   <version>1.0</version>
   <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
@@ -25,6 +25,7 @@
   -->
 
   <application-components>
+
     <!-- Add your application components here -->
   </application-components>
 
@@ -37,8 +38,7 @@
   </actions>
 
   <extensions defaultExtensionNs="com.intellij">
-      <copyPastePostProcessor implementation="org.jetbrains.kara.plugin.converter.copy.KaraCopyPastePostProcessor"/>
-      <applicationService serviceInterface="org.jetbrains.kara.plugin.KaraPluginOptions"
-                          serviceImplementation="org.jetbrains.kara.plugin.KaraPluginOptions"/>
+
+    <!-- Add your extensions here -->
   </extensions>
 </idea-plugin>
