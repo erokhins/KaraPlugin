@@ -28,6 +28,8 @@ import com.intellij.psi.PsiDocumentManager;
 import com.intellij.psi.PsiFile;
 
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.jet.lang.psi.JetFile;
+import org.jetbrains.kara.plugin.KaraPluginOptions;
 import org.jetbrains.kara.plugin.converter.KaraHTMLConverter;
 
 import java.awt.datatransfer.DataFlavor;
@@ -74,29 +76,31 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
                                         int caretOffset, Ref<Boolean> indented, final TextBlockTransferableData value) {
         try {
             final PsiFile file = PsiDocumentManager.getInstance(project).getPsiFile(editor.getDocument());
-            if (file == null) {
+            if (!(file instanceof JetFile) || !(value instanceof KaraCode)) {
                 return;
             }
-            boolean needConvert = okFromDialog(project);
-            if (needConvert) {
-                if (value instanceof KaraCode) {
-                    final String text = ((KaraCode) value).getData();
-                    ApplicationManager.getApplication().runWriteAction(new Runnable() {
-                        @Override
-                        public void run() {
-                            editor.getDocument().replaceString(bounds.getStartOffset(), bounds.getEndOffset(), text);
-                            editor.getCaretModel().moveToOffset(bounds.getStartOffset() + text.length());
-                            PsiDocumentManager.getInstance(file.getProject()).commitDocument(editor.getDocument());
-                        }
-                    });
-                }
+            if (allowConvert(project)) {
+                final String text = ((KaraCode) value).getData();
+                ApplicationManager.getApplication().runWriteAction(new Runnable() {
+                    @Override
+                    public void run() {
+                        editor.getDocument().replaceString(bounds.getStartOffset(), bounds.getEndOffset(), text);
+                        editor.getCaretModel().moveToOffset(bounds.getStartOffset() + text.length());
+                        PsiDocumentManager.getInstance(file.getProject()).commitDocument(editor.getDocument());
+                    }
+                });
             }
         } catch (Throwable t) {
             LOG.error(t);
         }
     }
 
-    private static boolean okFromDialog(@NotNull Project project) {
+    private static boolean allowConvert(@NotNull Project project) {
+        KaraPluginOptions options = KaraPluginOptions.getInstance();
+        if (options.isDonTShowConversionDialog()) {
+            return options.isEnableHtmlToKaraConversion();
+        }
+
         KaraPasteFromHtmlDialog dialog = new KaraPasteFromHtmlDialog(project);
         dialog.show();
         return dialog.isOK();

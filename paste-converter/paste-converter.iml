@@ -11,6 +11,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
     <orderEntry type="library" name="jsoup-1.7.2" level="project" />
+    <orderEntry type="module" module-name="common" />
   </component>
 </module>
 

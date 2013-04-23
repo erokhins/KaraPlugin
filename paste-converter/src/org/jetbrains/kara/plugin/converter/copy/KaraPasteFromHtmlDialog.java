@@ -19,6 +19,7 @@ package org.jetbrains.kara.plugin.converter.copy;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.DialogWrapper;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.kara.plugin.KaraPluginOptions;
 
 import javax.swing.*;
 import java.awt.*;
@@ -57,7 +58,7 @@ public class KaraPasteFromHtmlDialog extends DialogWrapper {
     @Override
     protected void doOKAction() {
         if (donTShowThisCheckBox.isSelected()) {
-            //TODO:
+            KaraPluginOptions.getInstance().setDonTShowConversionDialog(true);
         }
         super.doOKAction();
     }
