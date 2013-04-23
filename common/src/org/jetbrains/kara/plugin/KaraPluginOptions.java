@@ -16,7 +16,6 @@
 
 package org.jetbrains.kara.plugin;
 
-import com.intellij.ide.util.PropertiesComponent;
 import com.intellij.openapi.components.*;
 import com.intellij.util.xmlb.XmlSerializerUtil;
 import org.jetbrains.annotations.Nullable;

@@ -1,18 +1,12 @@
 <idea-plugin version="2">
-  <id>com.yourcompany.unique.plugin.id</id>
+    <id>org.jetbrains.kara.plugin</id>
   <name>KaraPlugin</name>
-  <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <version>snapshot</version>
+    <vendor url="http://www.jetbrains.com">JetBrains Inc.</vendor>
 
-  <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <small>most HTML tags may be used</small>
-      ]]></description>
+  <description>Kara addition actions</description>
 
-  <change-notes><![CDATA[
-      Add change notes here.<br>
-      <small>most HTML tags may be used</small>
-      ]]>
+  <change-notes>
   </change-notes>
 
   <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
@@ -36,9 +30,13 @@
     <!-- Add your actions here -->
   </actions>
 
+  <depends>org.jetbrains.kotlin</depends>
+
   <extensions defaultExtensionNs="com.intellij">
       <copyPastePostProcessor implementation="org.jetbrains.kara.plugin.converter.copy.KaraCopyPastePostProcessor"/>
       <applicationService serviceInterface="org.jetbrains.kara.plugin.KaraPluginOptions"
                           serviceImplementation="org.jetbrains.kara.plugin.KaraPluginOptions"/>
+      <configurationProducer implementation="org.jetbrains.jet.lang.psi.JetFile"/>
   </extensions>
+
 </idea-plugin>
