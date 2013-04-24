@@ -1,56 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <item name='kotlin.template.TemplatePackage.src.Templates.-984604936 java.lang.String toLocale(kotlin.template.StringTemplate, kotlin.template.LocaleFormatter) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.TemplatePackage.src.Templates.-984604936 java.lang.String toHtml$default(kotlin.template.StringTemplate, kotlin.template.HtmlFormatter, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.TemplatePackage java.lang.String toLocale$default(kotlin.template.StringTemplate, kotlin.template.LocaleFormatter, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.TemplatePackage java.lang.String toString(kotlin.template.StringTemplate, kotlin.template.Formatter) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.LocaleFormatter java.lang.String format(java.lang.Number)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.LocaleFormatter java.lang.String format(java.util.Date)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.TemplatePackage.src.Templates.-984604936 java.lang.String toLocale$default(kotlin.template.StringTemplate, kotlin.template.LocaleFormatter, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.TemplatePackage java.lang.String toLocale(kotlin.template.StringTemplate, kotlin.template.LocaleFormatter) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.TemplatePackage.src.Templates.-984604936 java.lang.String toHtml(kotlin.template.StringTemplate, kotlin.template.HtmlFormatter) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.TemplatePackage.src.Templates.-984604936 java.lang.String toString(kotlin.template.StringTemplate, kotlin.template.Formatter) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.ToStringFormatter java.lang.String toString()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.TemplatePackage java.lang.String toHtml$default(kotlin.template.StringTemplate, kotlin.template.HtmlFormatter, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.TemplatePackage.src.Templates.-984604936 void append(kotlin.template.StringTemplate, java.lang.Appendable, kotlin.template.Formatter) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.TemplatePackage java.lang.String toHtml(kotlin.template.StringTemplate, kotlin.template.HtmlFormatter) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.HtmlFormatter void format(java.lang.Appendable, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
-        </annotation>
-    </item>
-    <item name='kotlin.template.TemplatePackage void append(kotlin.template.StringTemplate, java.lang.Appendable, kotlin.template.Formatter) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.template.ToStringFormatter void format(java.lang.Appendable, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
+  <item name="kotlin.template.HtmlFormatter void format(java.lang.Appendable, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+    <annotation name="org.jetbrains.kannotator.runtime.annotations.Propagated">
+      <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+    </annotation>
+  </item>
+  <item name="kotlin.template.LocaleFormatter java.lang.String format(java.lang.Number)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.LocaleFormatter java.lang.String format(java.util.Date)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.TemplatePackage java.lang.String toHtml$default(kotlin.template.StringTemplate, kotlin.template.HtmlFormatter, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.TemplatePackage java.lang.String toHtml(kotlin.template.StringTemplate, kotlin.template.HtmlFormatter) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.TemplatePackage java.lang.String toLocale$default(kotlin.template.StringTemplate, kotlin.template.LocaleFormatter, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.TemplatePackage java.lang.String toLocale(kotlin.template.StringTemplate, kotlin.template.LocaleFormatter) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.TemplatePackage java.lang.String toString(kotlin.template.StringTemplate, kotlin.template.Formatter) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.TemplatePackage void append(kotlin.template.StringTemplate, java.lang.Appendable, kotlin.template.Formatter) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.TemplatePackage.src.Templates.-984604936 java.lang.String toHtml$default(kotlin.template.StringTemplate, kotlin.template.HtmlFormatter, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.TemplatePackage.src.Templates.-984604936 java.lang.String toHtml(kotlin.template.StringTemplate, kotlin.template.HtmlFormatter) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.TemplatePackage.src.Templates.-984604936 java.lang.String toLocale$default(kotlin.template.StringTemplate, kotlin.template.LocaleFormatter, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.TemplatePackage.src.Templates.-984604936 java.lang.String toLocale(kotlin.template.StringTemplate, kotlin.template.LocaleFormatter) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.TemplatePackage.src.Templates.-984604936 java.lang.String toString(kotlin.template.StringTemplate, kotlin.template.Formatter) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.TemplatePackage.src.Templates.-984604936 void append(kotlin.template.StringTemplate, java.lang.Appendable, kotlin.template.Formatter) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.ToStringFormatter java.lang.String toString()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.template.ToStringFormatter void format(java.lang.Appendable, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
 </root>
+

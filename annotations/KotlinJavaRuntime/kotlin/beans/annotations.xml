@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <item name='kotlin.beans.BeansPackage.src.Listeners.-2094510497 java.beans.PropertyChangeListener propertyChangeListener(jet.Function1&lt;? super java.beans.PropertyChangeEvent,? extends jet.Unit&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.beans.BeansPackage java.beans.PropertyChangeListener propertyChangeListener(jet.Function1&lt;? super java.beans.PropertyChangeEvent,? extends jet.Unit&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
+  <item name="kotlin.beans.BeansPackage java.beans.PropertyChangeListener propertyChangeListener(jet.Function1&lt;? super java.beans.PropertyChangeEvent,? extends jet.Unit&gt;)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.beans.BeansPackage.src.Listeners.-2094510497 java.beans.PropertyChangeListener propertyChangeListener(jet.Function1&lt;? super java.beans.PropertyChangeEvent,? extends jet.Unit&gt;)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
 </root>
+
