@@ -65,6 +65,7 @@ private class HtmlAttributeConverter(val pluginOptions : KaraPluginOptions) {
 
                 "type" ->  str.append("inputType = ").append(inputType(attr.getValue()))
                 "href" -> str.append("href = ").append(href(attr.getValue()))
+                "for" -> str.append("forId = \"${attr.getValue()}\"")
                 else -> str.append(attr.getKey()).append(" = \"${attr.getValue()}\"")
             }
         }

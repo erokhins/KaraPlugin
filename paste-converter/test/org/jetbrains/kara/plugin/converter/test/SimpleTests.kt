@@ -129,7 +129,7 @@ public class Simple {
 
     test fun hrefAttributeEnable() {
         runTest(
-                """
+            """
                 <a href="#">Link</a>
             """,
                 """
@@ -138,6 +138,19 @@ public class Simple {
                 }
             """,
                 getPluginOptions(hrefConvert = true)
+        )
+    }
+
+    test fun forAttributeDisable() {
+        runTest(
+            """
+                <label for="inputId">Label</label>
+            """,
+            """
+                label(forId = "inputId") {
+                ${t}+"Label"
+                }
+            """
         )
     }
 }
