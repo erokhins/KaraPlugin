@@ -1,710 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element createElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String nodesToXmlString$default(java.lang.Iterable, boolean, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 boolean getMetaKey(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage short getButton(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage int getLength(org.w3c.dom.CharacterData) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document ownerDocument$default(org.w3c.dom.Node, org.w3c.dom.Document, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage void setStyle(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getLocalName(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document parseXml(java.io.File, javax.xml.parsers.DocumentBuilder) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Document, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.Set&lt;java.lang.String&gt; getClassSet(org.w3c.dom.Element)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element createElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getTextContent(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 javax.xml.parsers.DocumentBuilder defaultDocumentBuilder$default(javax.xml.parsers.DocumentBuilderFactory, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getNamespaceURI(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 int getLength(org.w3c.dom.NamedNodeMap) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getNamespaceURI(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.util.Set&lt;java.lang.String&gt; getClassSet(org.w3c.dom.Element)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 void setText(org.w3c.dom.Node, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element addElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 2'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Document, java.lang.String, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Node getParentNode(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.Iterator&lt;org.w3c.dom.Node&gt; nextSiblings(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.ElementListAsList java.lang.Object get(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; getElements(org.w3c.dom.Document)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; getElements(org.w3c.dom.Element)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document parseXml(java.lang.String, javax.xml.parsers.DocumentBuilder) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 int getLength(org.w3c.dom.CharacterData) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Document, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document createDocument(javax.xml.parsers.DocumentBuilderFactory) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document parseXml$default(java.lang.String, javax.xml.parsers.DocumentBuilder, int) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getPrefix(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 org.w3c.dom.events.EventTarget getTarget(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getTextContent(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 boolean hasClass(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 boolean addClass(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String attribute(org.w3c.dom.Element, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.util.Iterator&lt;org.w3c.dom.Node&gt; nextSiblings(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getBaseURI(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 int getLength(org.w3c.dom.DOMStringList) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Element, java.lang.String, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document ownerDocument(org.w3c.dom.Node, org.w3c.dom.Document) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element addElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage void setClassSet(org.w3c.dom.Element, java.util.Set&lt;java.lang.String&gt;) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.NamedNodeMap getAttributes(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEvents.-768629564 org.w3c.dom.events.EventListener eventHandler(jet.Function1&lt;? super org.w3c.dom.events.Event,? extends jet.Unit&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getBaseURI(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage short getNodeType(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 int getClientY(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Node getLastChild(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 void setClassSet(org.w3c.dom.Element, java.util.Set&lt;java.lang.String&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getStyle(org.w3c.dom.Element)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getInnerHTML(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.events.EventListener eventHandler(jet.Function1&lt;? super org.w3c.dom.events.Event,? extends jet.Unit&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element getDocumentElement(org.w3c.dom.Document) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage int getLength(org.w3c.dom.NodeList) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage void setClassSet(org.w3c.dom.Element, java.util.Set&lt;java.lang.String&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Element, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getClasses(org.w3c.dom.Element)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage boolean getCtrlKey(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Node getNextSibling(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage boolean removeClass(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getId(org.w3c.dom.Element) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getBaseURI(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 boolean isText(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.Set&lt;java.lang.String&gt; getClassSet(org.w3c.dom.Element) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Node getParentNode(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 void setClassSet(org.w3c.dom.Element, java.util.Set&lt;java.lang.String&gt;) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Node getFirstChild(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String nodesToXmlString(java.lang.Iterable&lt;? extends org.w3c.dom.Node&gt;, boolean) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element addElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getNodeValue(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element createElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 3'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage boolean getCancelable(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String attribute(org.w3c.dom.Element, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage boolean hasClass(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Document, java.lang.String, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 int getClientX(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 short getButton(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element addElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 3'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage void setClasses(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getNodeName(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 int getScreenY(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document createDocument$default(javax.xml.parsers.DocumentBuilderFactory, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element createElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getId(org.w3c.dom.Element)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Element, java.lang.String, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.Iterator&lt;org.w3c.dom.Node&gt; previousSiblings(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document createDocument(javax.xml.parsers.DocumentBuilder) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document createDocument$default(javax.xml.parsers.DocumentBuilderFactory, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 int getScreenX(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getClasses(org.w3c.dom.Element) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document createDocument(javax.xml.parsers.DocumentBuilderFactory) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getText(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 int getLength(org.w3c.dom.DOMImplementationList) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document parseXml$default(java.io.File, javax.xml.parsers.DocumentBuilder, int) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getInnerHTML(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document parseXml(java.io.InputStream, javax.xml.parsers.DocumentBuilder) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.NodeList getChildNodes(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 org.w3c.dom.events.EventTarget getRelatedTarget(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getNodeName(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.util.Iterator&lt;org.w3c.dom.Element&gt; previousElements(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getNodeValue(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage void setId(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 boolean getCancelable(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage void clear(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getPrefix(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage javax.xml.transform.Transformer createTransformer$default(javax.xml.transform.Source, javax.xml.transform.TransformerFactory, int) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage int getClientY(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getLocalName(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getNodeValue(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage int getLength(org.w3c.dom.DOMStringList) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document parseXml$default(org.xml.sax.InputSource, javax.xml.parsers.DocumentBuilder, int) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element addElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 javax.xml.parsers.DocumentBuilder defaultDocumentBuilder(javax.xml.parsers.DocumentBuilderFactory) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element createElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 void setTextContent(org.w3c.dom.Node, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element createElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Node getFirstChild(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml$default(org.xml.sax.InputSource, javax.xml.parsers.DocumentBuilder, int) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 void clear(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getStyle(org.w3c.dom.Element) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getNodeName(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String attribute(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element addElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document parseXml$default(java.io.InputStream, javax.xml.parsers.DocumentBuilder, int) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.util.Set&lt;java.lang.String&gt; getClassSet(org.w3c.dom.Element) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element createElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 2'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage boolean getBubbles(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage int getScreenX(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getNodeName(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getBaseURI(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String attribute(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Node getNextSibling(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 boolean getCtrlKey(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage short getEventPhase(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage javax.xml.transform.Transformer createTransformer(javax.xml.transform.Source, javax.xml.transform.TransformerFactory) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getTextContent(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.util.Iterator&lt;org.w3c.dom.Element&gt; nextElements(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.util.Iterator&lt;org.w3c.dom.Node&gt; previousSiblings(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 javax.xml.transform.Transformer createTransformer(javax.xml.transform.Source, javax.xml.transform.TransformerFactory) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getClasses(org.w3c.dom.Element)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 boolean removeClass(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getText(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; getElements(org.w3c.dom.Document)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Element getDocumentElement(org.w3c.dom.Document) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element createElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 2'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage int getLength(org.w3c.dom.DOMImplementationList) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getPrefix(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Document ownerDocument$default(org.w3c.dom.Node, org.w3c.dom.Document, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage long getTimeStamp(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml$default(java.lang.String, javax.xml.parsers.DocumentBuilder, int) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 org.w3c.dom.events.EventTarget getGetCurrentTarget(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String nodesToXmlString(java.lang.Iterable&lt;? extends org.w3c.dom.Node&gt;, boolean) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Node getLastChild(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document parseXml(org.xml.sax.InputSource, javax.xml.parsers.DocumentBuilder) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml$default(java.io.InputStream, javax.xml.parsers.DocumentBuilder, int) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 long getTimeStamp(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 int getLength(org.w3c.dom.NodeList) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element createElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 3'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element addElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element addElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 3'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getNamespaceURI(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getText(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.NamedNodeMap getAttributes(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.Iterator&lt;org.w3c.dom.Element&gt; previousElements(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element addElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 2'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element addElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml(java.lang.String, javax.xml.parsers.DocumentBuilder) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getLocalName(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getText(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage int getScreenY(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage int getLength(org.w3c.dom.NameList) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.ElementListAsList org.w3c.dom.Element get(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element addElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 3'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 javax.xml.transform.Transformer createTransformer$default(javax.xml.transform.Source, javax.xml.transform.TransformerFactory, int) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getNodeValue(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String nodesToXmlString$default(java.lang.Iterable, boolean, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Document ownerDocument(org.w3c.dom.Node, org.w3c.dom.Document) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getClasses(org.w3c.dom.Element) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage boolean getAltKey(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.Iterator&lt;org.w3c.dom.Element&gt; nextElements(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.NodeList getChildNodes(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 boolean getBubbles(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element createElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 3'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getNamespaceURI(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage boolean getShiftKey(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 short getNodeType(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage boolean isText(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 boolean getAltKey(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage javax.xml.parsers.DocumentBuilder defaultDocumentBuilder(javax.xml.parsers.DocumentBuilderFactory) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml(java.io.InputStream, javax.xml.parsers.DocumentBuilder) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getTextContent(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Node getPreviousSibling(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getEventType(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getChildrenText(org.w3c.dom.Element) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Document getOwnerDocument(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document getOwnerDocument(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 short getEventPhase(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage javax.xml.parsers.DocumentBuilder defaultDocumentBuilder$default(javax.xml.parsers.DocumentBuilderFactory, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element addElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 3'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 int getLength(org.w3c.dom.NameList) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getPrefix(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document createDocument(javax.xml.parsers.DocumentBuilder) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 java.lang.String getEventType(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage void setText(org.w3c.dom.Node, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 void setId(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; toElementList(org.w3c.dom.NodeList)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage void setTextContent(org.w3c.dom.Node, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.events.EventListener mouseEventHandler(jet.Function1&lt;? super org.w3c.dom.events.MouseEvent,? extends jet.Unit&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getChildrenText(org.w3c.dom.Element) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getLocalName(org.w3c.dom.Node)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 void setStyle(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEvents.-768629564 org.w3c.dom.events.EventListener mouseEventHandler(jet.Function1&lt;? super org.w3c.dom.events.MouseEvent,? extends jet.Unit&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; toElementList(org.w3c.dom.NodeList)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml(java.io.File, javax.xml.parsers.DocumentBuilder) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getId(org.w3c.dom.Element) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.events.EventTarget getRelatedTarget(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Node getPreviousSibling(org.w3c.dom.Node) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage boolean getMetaKey(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage boolean addClass(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Element, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getId(org.w3c.dom.Element)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 boolean getShiftKey(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.Element createElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 3'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.events.EventTarget getGetCurrentTarget(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 void setClasses(org.w3c.dom.Element, java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml$default(java.io.File, javax.xml.parsers.DocumentBuilder, int) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getStyle(org.w3c.dom.Element)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage int getLength(org.w3c.dom.NamedNodeMap) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage int getClientX(org.w3c.dom.events.MouseEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; getElements(org.w3c.dom.Element)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml(org.xml.sax.InputSource, javax.xml.parsers.DocumentBuilder) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element createElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage org.w3c.dom.events.EventTarget getTarget(org.w3c.dom.events.Event) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.dom.DomPackage java.lang.String getStyle(org.w3c.dom.Element) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
+  <item name="kotlin.dom.DomPackage boolean addClass(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage boolean getAltKey(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage boolean getBubbles(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage boolean getCancelable(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage boolean getCtrlKey(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage boolean getMetaKey(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage boolean getShiftKey(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage boolean hasClass(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage boolean isText(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage boolean removeClass(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage int getClientX(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage int getClientY(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage int getLength(org.w3c.dom.CharacterData) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage int getLength(org.w3c.dom.DOMImplementationList) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage int getLength(org.w3c.dom.DOMStringList) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage int getLength(org.w3c.dom.NameList) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage int getLength(org.w3c.dom.NamedNodeMap) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage int getLength(org.w3c.dom.NodeList) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage int getScreenX(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage int getScreenY(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String attribute(org.w3c.dom.Element, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String attribute(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getBaseURI(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getBaseURI(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getChildrenText(org.w3c.dom.Element) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getClasses(org.w3c.dom.Element)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getClasses(org.w3c.dom.Element) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getEventType(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getId(org.w3c.dom.Element)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getId(org.w3c.dom.Element) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getInnerHTML(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getLocalName(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getLocalName(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getNamespaceURI(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getNamespaceURI(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getNodeName(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getNodeName(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getNodeValue(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getNodeValue(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getPrefix(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getPrefix(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getStyle(org.w3c.dom.Element)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getStyle(org.w3c.dom.Element) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getText(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getText(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getTextContent(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String getTextContent(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String nodesToXmlString$default(java.lang.Iterable, boolean, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.lang.String nodesToXmlString(java.lang.Iterable&lt;? extends org.w3c.dom.Node&gt;, boolean) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.Iterator&lt;org.w3c.dom.Element&gt; nextElements(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.Iterator&lt;org.w3c.dom.Element&gt; previousElements(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.Iterator&lt;org.w3c.dom.Node&gt; nextSiblings(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.Iterator&lt;org.w3c.dom.Node&gt; previousSiblings(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Document, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Document, java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Element, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Element, java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; getElements(org.w3c.dom.Document)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; getElements(org.w3c.dom.Element)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.List&lt;org.w3c.dom.Element&gt; toElementList(org.w3c.dom.NodeList)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.Set&lt;java.lang.String&gt; getClassSet(org.w3c.dom.Element)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage java.util.Set&lt;java.lang.String&gt; getClassSet(org.w3c.dom.Element) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage javax.xml.parsers.DocumentBuilder defaultDocumentBuilder$default(javax.xml.parsers.DocumentBuilderFactory, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage javax.xml.parsers.DocumentBuilder defaultDocumentBuilder(javax.xml.parsers.DocumentBuilderFactory) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage javax.xml.transform.Transformer createTransformer$default(javax.xml.transform.Source, javax.xml.transform.TransformerFactory, int) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage javax.xml.transform.Transformer createTransformer(javax.xml.transform.Source, javax.xml.transform.TransformerFactory) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage long getTimeStamp(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document createDocument$default(javax.xml.parsers.DocumentBuilderFactory, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document createDocument(javax.xml.parsers.DocumentBuilder) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document createDocument(javax.xml.parsers.DocumentBuilderFactory) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document getOwnerDocument(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document ownerDocument$default(org.w3c.dom.Node, org.w3c.dom.Document, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document ownerDocument(org.w3c.dom.Node, org.w3c.dom.Document) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document parseXml$default(java.io.File, javax.xml.parsers.DocumentBuilder, int) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document parseXml$default(java.io.InputStream, javax.xml.parsers.DocumentBuilder, int) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document parseXml$default(java.lang.String, javax.xml.parsers.DocumentBuilder, int) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document parseXml$default(org.xml.sax.InputSource, javax.xml.parsers.DocumentBuilder, int) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document parseXml(java.io.File, javax.xml.parsers.DocumentBuilder) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document parseXml(java.io.InputStream, javax.xml.parsers.DocumentBuilder) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document parseXml(java.lang.String, javax.xml.parsers.DocumentBuilder) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Document parseXml(org.xml.sax.InputSource, javax.xml.parsers.DocumentBuilder) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element addElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element addElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 3">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element addElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element addElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 2">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element addElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element addElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 3">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element createElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element createElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 3">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element createElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element createElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 2">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element createElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element createElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 3">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Element getDocumentElement(org.w3c.dom.Document) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.NamedNodeMap getAttributes(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Node getFirstChild(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Node getLastChild(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Node getNextSibling(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Node getParentNode(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.Node getPreviousSibling(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.NodeList getChildNodes(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.events.EventListener eventHandler(jet.Function1&lt;? super org.w3c.dom.events.Event,? extends jet.Unit&gt;)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.events.EventListener mouseEventHandler(jet.Function1&lt;? super org.w3c.dom.events.MouseEvent,? extends jet.Unit&gt;)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.events.EventTarget getGetCurrentTarget(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.events.EventTarget getRelatedTarget(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage org.w3c.dom.events.EventTarget getTarget(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage short getButton(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage short getEventPhase(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage short getNodeType(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage void clear(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage void setClassSet(org.w3c.dom.Element, java.util.Set&lt;java.lang.String&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage void setClassSet(org.w3c.dom.Element, java.util.Set&lt;java.lang.String&gt;) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage void setClasses(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage void setId(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage void setStyle(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage void setText(org.w3c.dom.Node, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage void setTextContent(org.w3c.dom.Node, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 boolean hasClass(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 boolean isText(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String attribute(org.w3c.dom.Element, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String attribute(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getChildrenText(org.w3c.dom.Element) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getClasses(org.w3c.dom.Element)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getClasses(org.w3c.dom.Element) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getId(org.w3c.dom.Element)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getId(org.w3c.dom.Element) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getStyle(org.w3c.dom.Element)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getStyle(org.w3c.dom.Element) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getText(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String getText(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String nodesToXmlString$default(java.lang.Iterable, boolean, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.lang.String nodesToXmlString(java.lang.Iterable&lt;? extends org.w3c.dom.Node&gt;, boolean) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.util.Iterator&lt;org.w3c.dom.Node&gt; nextSiblings(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.util.Iterator&lt;org.w3c.dom.Node&gt; previousSiblings(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Document, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Document, java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Element, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; elements(org.w3c.dom.Element, java.lang.String, java.lang.String)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; getElements(org.w3c.dom.Document)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; getElements(org.w3c.dom.Element)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 java.util.List&lt;org.w3c.dom.Element&gt; toElementList(org.w3c.dom.NodeList)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Document ownerDocument$default(org.w3c.dom.Node, org.w3c.dom.Document, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Document ownerDocument(org.w3c.dom.Node, org.w3c.dom.Document) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element addElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element addElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 3">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element addElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element addElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 2">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element addElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element addElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 3">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element createElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element createElement$default(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0, int) 3">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element createElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element createElement(org.w3c.dom.Document, java.lang.String, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 2">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element createElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 org.w3c.dom.Element createElement(org.w3c.dom.Element, java.lang.String, org.w3c.dom.Document, jet.ExtensionFunction0&lt;? super org.w3c.dom.Element,? extends jet.Unit&gt;) 3">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 void clear(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 void setClasses(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 void setId(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 void setStyle(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.Dom.-911178467 void setText(org.w3c.dom.Node, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEvents.-768629564 org.w3c.dom.events.EventListener eventHandler(jet.Function1&lt;? super org.w3c.dom.events.Event,? extends jet.Unit&gt;)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEvents.-768629564 org.w3c.dom.events.EventListener mouseEventHandler(jet.Function1&lt;? super org.w3c.dom.events.MouseEvent,? extends jet.Unit&gt;)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 boolean getAltKey(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 boolean getBubbles(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 boolean getCancelable(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 boolean getCtrlKey(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 boolean getMetaKey(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 boolean getShiftKey(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 int getClientX(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 int getClientY(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 int getScreenX(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 int getScreenY(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 java.lang.String getEventType(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 long getTimeStamp(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 org.w3c.dom.events.EventTarget getGetCurrentTarget(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 org.w3c.dom.events.EventTarget getRelatedTarget(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 org.w3c.dom.events.EventTarget getTarget(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 short getButton(org.w3c.dom.events.MouseEvent) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomEventsJVM.-991578071 short getEventPhase(org.w3c.dom.events.Event) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 boolean addClass(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 boolean removeClass(org.w3c.dom.Element, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 int getLength(org.w3c.dom.CharacterData) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 int getLength(org.w3c.dom.DOMImplementationList) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 int getLength(org.w3c.dom.DOMStringList) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 int getLength(org.w3c.dom.NameList) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 int getLength(org.w3c.dom.NamedNodeMap) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 int getLength(org.w3c.dom.NodeList) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getBaseURI(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getBaseURI(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getInnerHTML(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getLocalName(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getLocalName(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getNamespaceURI(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getNamespaceURI(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getNodeName(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getNodeName(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getNodeValue(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getNodeValue(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getPrefix(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getPrefix(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getTextContent(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.lang.String getTextContent(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.util.Iterator&lt;org.w3c.dom.Element&gt; nextElements(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.util.Iterator&lt;org.w3c.dom.Element&gt; previousElements(org.w3c.dom.Node)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.util.Set&lt;java.lang.String&gt; getClassSet(org.w3c.dom.Element)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 java.util.Set&lt;java.lang.String&gt; getClassSet(org.w3c.dom.Element) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 javax.xml.parsers.DocumentBuilder defaultDocumentBuilder$default(javax.xml.parsers.DocumentBuilderFactory, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 javax.xml.parsers.DocumentBuilder defaultDocumentBuilder(javax.xml.parsers.DocumentBuilderFactory) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 javax.xml.transform.Transformer createTransformer$default(javax.xml.transform.Source, javax.xml.transform.TransformerFactory, int) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 javax.xml.transform.Transformer createTransformer(javax.xml.transform.Source, javax.xml.transform.TransformerFactory) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document createDocument$default(javax.xml.parsers.DocumentBuilderFactory, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document createDocument(javax.xml.parsers.DocumentBuilder) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document createDocument(javax.xml.parsers.DocumentBuilderFactory) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document getOwnerDocument(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml$default(java.io.File, javax.xml.parsers.DocumentBuilder, int) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml$default(java.io.InputStream, javax.xml.parsers.DocumentBuilder, int) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml$default(java.lang.String, javax.xml.parsers.DocumentBuilder, int) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml$default(org.xml.sax.InputSource, javax.xml.parsers.DocumentBuilder, int) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml(java.io.File, javax.xml.parsers.DocumentBuilder) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml(java.io.InputStream, javax.xml.parsers.DocumentBuilder) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml(java.lang.String, javax.xml.parsers.DocumentBuilder) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Document parseXml(org.xml.sax.InputSource, javax.xml.parsers.DocumentBuilder) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Element getDocumentElement(org.w3c.dom.Document) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.NamedNodeMap getAttributes(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Node getFirstChild(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Node getLastChild(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Node getNextSibling(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Node getParentNode(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.Node getPreviousSibling(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 org.w3c.dom.NodeList getChildNodes(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 short getNodeType(org.w3c.dom.Node) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 void setClassSet(org.w3c.dom.Element, java.util.Set&lt;java.lang.String&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 void setClassSet(org.w3c.dom.Element, java.util.Set&lt;java.lang.String&gt;) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.DomPackage.src.DomJVM.56708400 void setTextContent(org.w3c.dom.Node, java.lang.String) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.ElementListAsList java.lang.Object get(int)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="kotlin.dom.ElementListAsList org.w3c.dom.Element get(int)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
 </root>
+

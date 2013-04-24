@@ -36,7 +36,11 @@
       <copyPastePostProcessor implementation="org.jetbrains.kara.plugin.converter.copy.KaraCopyPastePostProcessor"/>
       <applicationService serviceInterface="org.jetbrains.kara.plugin.KaraPluginOptions"
                           serviceImplementation="org.jetbrains.kara.plugin.KaraPluginOptions"/>
-      <configurationProducer implementation="org.jetbrains.jet.lang.psi.JetFile"/>
+
+      <applicationConfigurable
+              id="karaPlugin"
+              displayName="Kara Plugin"
+              parentId="editor" instance="org.jetbrains.kara.plugin.KaraConfigurable"/>
   </extensions>
 
 </idea-plugin>
