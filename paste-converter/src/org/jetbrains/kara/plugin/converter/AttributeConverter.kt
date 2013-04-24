@@ -19,7 +19,7 @@ package org.jetbrains.kara.plugin.converter
 import org.jsoup.nodes.Attributes
 import org.jetbrains.kara.plugin.KaraPluginOptions
 
-private object KaraAttributeConverter {
+private class HtmlAttributeConverter(val pluginOptions : KaraPluginOptions) {
 
     private fun styleClassConvert(styleClass : String): String {
         return styleClass.replace('-', '_')
@@ -47,14 +47,14 @@ private object KaraAttributeConverter {
     }
 
     private fun href(value : String): String {
-        if (KaraPluginOptions.getInstance().isEnableHrefToDirectLinkConversion()) {
+        if (pluginOptions.isEnableHrefToDirectLinkConversion()) {
             return "DirectLink(\"$value\")"
         } else {
             return "\"$value\""
         }
     }
 
-    public fun attributesConverter(attributes : Attributes): String {
+    public fun convert(attributes : Attributes): String {
         val str = StringBuilder()
         for (attr in attributes.asList()!!) {
             if (str.length() > 0) {

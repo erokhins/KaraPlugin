@@ -19,9 +19,16 @@ package org.jetbrains.kara.plugin.converter.test
 import org.junit.Test as test
 import org.junit.Assert.*
 import org.jetbrains.kara.plugin.converter.KaraHTMLConverter
+import org.jetbrains.kara.plugin.KaraPluginOptions
 
 public class Simple {
     val t = "___"
+
+    fun getPluginOptions(hrefConvert : Boolean = false): KaraPluginOptions {
+        val options = KaraPluginOptions()
+        options.setEnableHrefToDirectLinkConversion(hrefConvert)
+        return options
+    }
 
     fun outPrepare(out : String) : String {
         val str = StringBuilder()
@@ -31,8 +38,8 @@ public class Simple {
         return str.toString().replace(t, "\t")
     }
 
-    fun runTest(inp: String, out: String) {
-        assertEquals(outPrepare(out), KaraHTMLConverter.converter(inp))
+    fun runTest(inp: String, out: String, options : KaraPluginOptions = getPluginOptions()) {
+        assertEquals(outPrepare(out), KaraHTMLConverter.converter(inp, options))
 
     }
 
@@ -107,4 +114,30 @@ public class Simple {
         )
     }
 
+    test fun hrefAttributeDisable() {
+        runTest(
+            """
+                <a href="#">Link</a>
+            """,
+                """
+                a(href = "#") {
+                ${t}+"Link"
+                }
+            """
+        )
+    }
+
+    test fun hrefAttributeEnable() {
+        runTest(
+                """
+                <a href="#">Link</a>
+            """,
+                """
+                a(href = DirectLink("#")) {
+                ${t}+"Link"
+                }
+            """,
+                getPluginOptions(hrefConvert = true)
+        )
+    }
 }

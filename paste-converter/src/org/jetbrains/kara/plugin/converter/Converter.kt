@@ -26,6 +26,7 @@ import org.jsoup.nodes.Attributes
 import java.util.Collections
 import java.util.ArrayList
 import java.util.regex.Pattern
+import org.jetbrains.kara.plugin.KaraPluginOptions
 
 enum class NodeType {
     document
@@ -63,16 +64,17 @@ public object KaraHTMLConverter {
         return false
     }
 
-    public fun converter(htmlText : String, startDepth : Int = 0): String {
+    public fun converter(htmlText : String, pluginOptions : KaraPluginOptions, startDepth : Int = 0): String {
         val str = StringBuilder()
+        val nodeTraversor = NodeTraversor(KaraConvertNodeVisitor(str, startDepth, HtmlAttributeConverter(pluginOptions)))
         if (hasBodyTag(htmlText)) {
             val doc = Jsoup.parse(htmlText)
-            NodeTraversor(KaraConvertNodeVisitor(str, startDepth)).traverse(doc!!.head())
-            NodeTraversor(KaraConvertNodeVisitor(str, startDepth)).traverse(doc.body())
+            nodeTraversor.traverse(doc!!.head())
+            nodeTraversor.traverse(doc.body())
         } else {
             val doc = Jsoup.parseBodyFragment(htmlText)
             for (element in doc.body()!!.childNodes()!!) {
-                NodeTraversor(KaraConvertNodeVisitor(str, startDepth)).traverse(element)
+                nodeTraversor.traverse(element)
             }
         }
         return str.toString()
@@ -109,7 +111,8 @@ public object KaraHTMLConverter {
         return str.toString()
     }
 
-    private class KaraConvertNodeVisitor(val stringBuilder : StringBuilder, val startDepth : Int) : NodeVisitor {
+    private class KaraConvertNodeVisitor(val stringBuilder : StringBuilder, val startDepth : Int, 
+                                         val attributeConverter : HtmlAttributeConverter) : NodeVisitor {
         override fun head(node: Node, depth: Int) {
             val realDepth = depth + startDepth
             when (node.getType()) {
@@ -127,7 +130,7 @@ public object KaraHTMLConverter {
 
                 element -> {
                     stringBuilder.append(spaces(realDepth)).append(node.nodeName())
-                    val attrStr = KaraAttributeConverter.attributesConverter(node.attributes()!!)
+                    val attrStr = attributeConverter.convert(node.attributes()!!)
                     if (!attrStr.isEmpty()) stringBuilder.append('(').append(attrStr).append(')')
 
                     if (node.childNodeSize() != 0) {

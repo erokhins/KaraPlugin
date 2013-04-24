@@ -61,7 +61,7 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
         try {
             if (containsHtml(content)) {
                 String text = (String) content.getTransferData(DataFlavor.stringFlavor);
-                String newText = KaraHTMLConverter.instance$.converter(text, 0);
+                String newText = KaraHTMLConverter.instance$.converter(text, KaraPluginOptions.getInstance(), 0);
                 return new KaraCode(newText);
             }
         }
