@@ -17,6 +17,7 @@
 package org.jetbrains.kara.plugin.converter
 
 import org.jsoup.nodes.Attributes
+import org.jetbrains.kara.plugin.KaraPluginOptions
 
 private object KaraAttributeConverter {
 
@@ -45,6 +46,14 @@ private object KaraAttributeConverter {
         return "InputType." + value
     }
 
+    private fun href(value : String): String {
+        if (KaraPluginOptions.getInstance().isEnableHrefToDirectLinkConversion()) {
+            return "DirectLink(\"$value\")"
+        } else {
+            return "\"$value\""
+        }
+    }
+
     public fun attributesConverter(attributes : Attributes): String {
         val str = StringBuilder()
         for (attr in attributes.asList()!!) {
@@ -55,7 +64,8 @@ private object KaraAttributeConverter {
                 "class" -> str.append("c = ").append(styleClasses(attr.getValue()))
 
                 "type" ->  str.append("inputType = ").append(inputType(attr.getValue()))
-                else -> str.append(attr.getKey()).append(" = \"").append(attr.getValue()).append("\"")
+                "href" -> str.append("href = ").append(href(attr.getValue()))
+                else -> str.append(attr.getKey()).append(" = \"${attr.getValue()}\"")
             }
         }
         return str.toString()

@@ -18,6 +18,7 @@ package org.jetbrains.kara.plugin;
 
 import com.intellij.openapi.components.*;
 import com.intellij.util.xmlb.XmlSerializerUtil;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 @State(
@@ -30,7 +31,16 @@ public class KaraPluginOptions implements PersistentStateComponent<KaraPluginOpt
 
     private boolean donTShowConversionDialog = false;
     private boolean enableHtmlToKaraConversion = true;
+    private boolean enableHrefToDirectLinkConversion = false;
 
+    public boolean isEnableHrefToDirectLinkConversion() {
+        return enableHrefToDirectLinkConversion;
+    }
+
+    @SuppressWarnings("UnusedDeclaration")
+    public void setEnableHrefToDirectLinkConversion(boolean enableHrefToDirectLinkConversion) {
+        this.enableHrefToDirectLinkConversion = enableHrefToDirectLinkConversion;
+    }
 
     public boolean isDonTShowConversionDialog() {
         return donTShowConversionDialog;
@@ -44,6 +54,7 @@ public class KaraPluginOptions implements PersistentStateComponent<KaraPluginOpt
         return enableHtmlToKaraConversion;
     }
 
+    @SuppressWarnings("UnusedDeclaration")
     public void setEnableHtmlToKaraConversion(boolean enableHtmlToKaraConversion) {
         this.enableHtmlToKaraConversion = enableHtmlToKaraConversion;
     }
@@ -61,6 +72,7 @@ public class KaraPluginOptions implements PersistentStateComponent<KaraPluginOpt
         XmlSerializerUtil.copyBean(state, this);
     }
 
+    @NotNull
     public static KaraPluginOptions getInstance() {
         return ServiceManager.getService(KaraPluginOptions.class);
     }

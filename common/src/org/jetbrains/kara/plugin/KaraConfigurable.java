@@ -18,10 +18,8 @@ package org.jetbrains.kara.plugin;
 
 import com.intellij.openapi.options.BeanConfigurable;
 import com.intellij.openapi.options.Configurable;
-import com.intellij.openapi.options.ConfigurationException;
 import org.jetbrains.annotations.Nls;
 import org.jetbrains.annotations.Nullable;
-import org.jetbrains.jet.plugin.editor.JetEditorOptions;
 
 import javax.swing.*;
 import java.awt.*;
@@ -32,6 +30,7 @@ public class KaraConfigurable extends BeanConfigurable<KaraPluginOptions> implem
         super(beanInstance);
         checkBox("donTShowConversionDialog", "Don't show Html to Kara conversion dialog");
         checkBox("enableHtmlToKaraConversion", "Enable Html To Kara Conversion");
+        checkBox("enableHrefToDirectLinkConversion", "Enable Href To DirectLink Conversion");
     }
 
     @Nls
