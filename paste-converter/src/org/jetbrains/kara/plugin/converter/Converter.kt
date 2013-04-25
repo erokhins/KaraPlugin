@@ -74,6 +74,7 @@ public class Formatter(val indent : String = "\t", val lineBreak : String = "\n"
 
 public class HtmlToKaraConverter(val pluginOptions : KaraPluginOptions, val formatter : Formatter = Formatter()) {
     private val n = formatter.lineBreak
+    private val k = "\"\"\""
 
     public fun convert(htmlText : String): String {
         val str = StringBuilder()
@@ -100,21 +101,30 @@ public class HtmlToKaraConverter(val pluginOptions : KaraPluginOptions, val form
         val trimText = text.trim()
         if (trimText.isEmpty()) return Collections.emptyList()
 
-        return trimText.split("${n}").map { s -> s.trim() }
+        return trimText.split("$n").map { s -> s.trim() }
     }
 
     private fun dataConverter(text : String, depth :  Int): String {
         val str = StringBuilder()
         for (line in getTrimLines(text)) {
-            str.append(generateIndent(depth)).append(line).append("${n}")
+            str.append(generateIndent(depth)).append(line).append("$n")
         }
         return str.toString()
     }
 
     private fun textConverter(text : String, depth :  Int): String {
         val str = StringBuilder()
-        for (line in getTrimLines(text)) {
-            str.append(generateIndent(depth)).append("+\"$line\"${n}")
+        val trimLines = getTrimLines(text)
+        if (trimLines.size() > 1) {
+            str.append(generateIndent(depth)).append("$k$n")
+            for (line in trimLines) {
+                str.append(generateIndent(depth+1)).append("$line$n")
+            }
+            str.append(generateIndent(depth)).append("$k$n")
+        } else {
+            if (!trimLines.isEmpty()) {
+                str.append(generateIndent(depth)).append("+\"${trimLines[0]}\"$n")
+            }
         }
         return str.toString()
     }
@@ -130,10 +140,10 @@ public class HtmlToKaraConverter(val pluginOptions : KaraPluginOptions, val form
                     if (!convertedText.isEmpty()) stringBuilder.append(convertedText)
                 }
 
-                comment -> stringBuilder.append(generateIndent(realDepth)).append("/*${n}")
+                comment -> stringBuilder.append(generateIndent(realDepth)).append("/*$n")
                         .append(dataConverter(node.attr("comment")!!, realDepth + 1))
 
-                data -> stringBuilder.append(generateIndent(realDepth)).append("\"\"\"${n}")
+                data -> stringBuilder.append(generateIndent(realDepth)).append("$k$n")
                         .append(dataConverter(node.attr("data")!!, realDepth + 1))
 
                 element -> {
@@ -142,9 +152,9 @@ public class HtmlToKaraConverter(val pluginOptions : KaraPluginOptions, val form
                     if (!attrStr.isEmpty()) stringBuilder.append('(').append(attrStr).append(')')
 
                     if (node.childNodeSize() != 0) {
-                        stringBuilder.append(" {${n}")
+                        stringBuilder.append(" {$n")
                     } else {
-                        stringBuilder.append("${n}")
+                        stringBuilder.append("$n")
                     }
                 }
             }
@@ -155,10 +165,10 @@ public class HtmlToKaraConverter(val pluginOptions : KaraPluginOptions, val form
             when (node.getType()) {
                 document, doctype -> {}
                 text -> {}
-                comment -> stringBuilder.append(generateIndent(realDepth)).append("*/${n}")
-                data -> stringBuilder.append(generateIndent(realDepth)).append("\"\"\"${n}")
+                comment -> stringBuilder.append(generateIndent(realDepth)).append("*/$n")
+                data -> stringBuilder.append(generateIndent(realDepth)).append("$k$n")
                 element -> {
-                    if (node.childNodeSize() != 0) stringBuilder.append(generateIndent(realDepth)).append("}${n}")
+                    if (node.childNodeSize() != 0) stringBuilder.append(generateIndent(realDepth)).append("}$n")
                 }
             }
         }

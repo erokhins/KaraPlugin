@@ -24,6 +24,7 @@ import org.jetbrains.kara.plugin.converter.Formatter
 
 public class HtmlToKaraConverterTest {
     val t = "___"
+    val k = "\"\"\""
 
     fun getPluginOptions(hrefConvert : Boolean = false): KaraPluginOptions {
         val options = KaraPluginOptions()
@@ -57,6 +58,26 @@ public class HtmlToKaraConverterTest {
             """
                 div {
                 ${t}+"text"
+                }
+            """
+        );
+    }
+
+    test fun severalLinesText() {
+        runTest(
+                """
+                <div>
+                    line1
+                    line2
+                </div>
+            """,
+
+                """
+                div {
+                ${t}${k}
+                ${t}${t}line1
+                ${t}${t}line2
+                ${t}${k}
                 }
             """
         );
@@ -103,13 +124,26 @@ public class HtmlToKaraConverterTest {
         );
     }
 
-    test fun buttonTest() {
+    test fun inputAttribute() {
         runTest(
             """
-                <button type="submit" class="btn">Submit</button>
+                <button type="submit">Submit</button>
             """,
             """
-                button(inputType = InputType.submit, c = btn) {
+                button(inputType = InputType.submit) {
+                ${t}+"Submit"
+                }
+            """
+        )
+    }
+
+    test fun severalAttributes() {
+        runTest(
+            """
+                <button type="submit" class = "class-1 btn-info">Submit</button>
+            """,
+                """
+                button(inputType = InputType.submit, c = class_1 + btn_info) {
                 ${t}+"Submit"
                 }
             """
@@ -143,7 +177,7 @@ public class HtmlToKaraConverterTest {
         )
     }
 
-    test fun forAttributeDisable() {
+    test fun forAttribute() {
         runTest(
             """
                 <label for="inputId">Label</label>
