@@ -19,7 +19,7 @@ package org.jetbrains.kara.plugin.converter
 import org.jsoup.nodes.Attributes
 import org.jetbrains.kara.plugin.KaraPluginOptions
 
-private class HtmlAttributeConverter(val pluginOptions : KaraPluginOptions) {
+private class HtmlAttributeConverter(val pluginOptions : KaraPluginOptions, val formatter : Formatter = Formatter()) {
 
     private fun styleClassConvert(styleClass : String): String {
         return styleClass.replace('-', '_')
@@ -60,13 +60,13 @@ private class HtmlAttributeConverter(val pluginOptions : KaraPluginOptions) {
             if (str.length() > 0) {
                 str.append(", ")
             }
+            val saveValue = formatter.saveString(attr.getValue())
             when (attr.getKey()) {
                 "class" -> str.append("c = ").append(styleClasses(attr.getValue()))
-
                 "type" ->  str.append("inputType = ").append(inputType(attr.getValue()))
-                "href" -> str.append("href = ").append(href(attr.getValue()))
-                "for" -> str.append("forId = \"${attr.getValue()}\"")
-                else -> str.append(attr.getKey()).append(" = \"${attr.getValue()}\"")
+                "href" -> str.append("href = ").append(href(saveValue))
+                "for" -> str.append("forId = \"$saveValue\"")
+                else -> str.append(attr.getKey()).append(" = \"$saveValue\"")
             }
         }
         return str.toString()

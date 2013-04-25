@@ -47,6 +47,16 @@ public class HtmlToKaraConverterTest {
     }
 
 
+    test fun formatterIndentTest() {
+        val formatter = Formatter(indent = "|")
+        assertEquals("|||", formatter.generateIndent(3))
+    }
+
+
+    test fun formatterSaveStrTest() {
+        val formatter = Formatter()
+        assertEquals("\\\\ \\\$ \\\$a \\\"", formatter.saveString("\\ \$ \$a \""))
+    }
 
 
     test fun simple() {
@@ -185,6 +195,33 @@ public class HtmlToKaraConverterTest {
             """
                 label(forId = "inputId") {
                 ${t}+"Label"
+                }
+            """
+        )
+    }
+
+    test fun saveHrefSymbols() {
+        runTest(
+            """
+                <a href = "$\">Link</a>
+            """,
+            """
+                a(href = "\$\\") {
+                ${t}+"Link"
+                }
+            """
+        )
+    }
+
+    test fun saveText() {
+        runTest(
+            """
+                <div> text "$\ </div>
+            """,
+
+            """
+                div {
+                ${t}+"text \"\$\\"
                 }
             """
         )
