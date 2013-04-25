@@ -1,0 +1,52 @@
+<project name="Update Dependencies" default="update">
+    <property name="project.lib" value="lib"/>
+    <property name="kotlin.zip.url" value="http://teamcity.jetbrains.com/guestAuth/repository/download/bt345/82200:id/kotlin-plugin-0.5.554.zip"/>
+
+    <property name="idea.sdk.base.url" value="http://teamcity.jetbrains.com/guestAuth/repository/download/bt410/81390:id"/>
+    <property name="idea.sdk.build.zip" value="ideaIC-129.SNAPSHOT.win.zip"/>
+
+    <target name="update" depends="download-libraries, download-idea-sdk">
+    </target>
+
+    <target name="download-libraries">
+        <delete dir="dependencies" failonerror="false"/>
+        <mkdir dir="dependencies"/>
+        <mkdir dir="dependencies/download"/>
+
+        <!-- JSoup -->
+        <get src="http://jsoup.org/packages/jsoup-1.7.2.jar"
+             dest="dependencies/download/jsoup-1.7.2.jar" usetimestamp="true"/>
+        <copy file="dependencies/download/jsoup-1.7.2.jar" tofile="${project.lib}/jsoup-1.7.2.jar" overwrite="true"/>
+
+        <get src="http://jsoup.org/packages/jsoup-1.7.2-sources.jar"
+             dest="dependencies/download/jsoup-1.7.2-sources.jar" usetimestamp="true"/>
+        <copy file="dependencies/download/jsoup-1.7.2-sources.jar" tofile="${project.lib}/jsoup-1.7.2-sources.jar" overwrite="true"/>
+
+        <!-- Kotlin -->
+        <get src="${kotlin.zip.url}"
+             dest="dependencies/download/kotlin-plugin.zip" usetimestamp="true"/>
+
+        <delete dir="dependencies/download/Kotlin" failonerror="false"/>
+        <unzip src="dependencies/download/kotlin-plugin.zip" dest="dependencies/download">
+            <patternset>
+                <include name="**/*"/>
+            </patternset>
+        </unzip>
+        <copy file="dependencies/download/Kotlin/lib/kotlin-plugin.jar" tofile="${project.lib}/kotlin-plugin.jar" overwrite="true"/>
+        <copy file="dependencies/download/Kotlin/kotlinc/lib/kotlin-runtime.jar" tofile="${project.lib}/kotlin-runtime.jar" overwrite="true"/>
+
+    </target>
+
+    <target name="download-idea-sdk" depends="download-libraries">
+        <get src="${idea.sdk.base.url}/${idea.sdk.build.zip}" dest="dependencies/download/${idea.sdk.build.zip}" usetimestamp="true"/>
+        <get src="${idea.sdk.base.url}/sources.zip" dest="dependencies/download/idea-sdk-sources.zip" usetimestamp="true"/>
+
+        <mkdir dir="idea.sdk"/>
+        <mkdir dir="idea.sdk/sources"/>
+
+        <unzip src="dependencies/download/${idea.sdk.build.zip}" dest="idea.sdk"/>
+        <copy file="dependencies/download/idea-sdk-sources.zip" tofile="idea.sdk/sources/sources.zip"/>
+        <copy file="dependencies/download/Kotlin/" tofile="idea.sdk/config/plugins" />
+    </target>
+
+</project>
