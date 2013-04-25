@@ -18,10 +18,11 @@ package org.jetbrains.kara.plugin.converter.test
 
 import org.junit.Test as test
 import org.junit.Assert.*
-import org.jetbrains.kara.plugin.converter.KaraHTMLConverter
+import org.jetbrains.kara.plugin.converter.HtmlToKaraConverter
 import org.jetbrains.kara.plugin.KaraPluginOptions
+import org.jetbrains.kara.plugin.converter.Formatter
 
-public class Simple {
+public class HtmlToKaraConverterTest {
     val t = "___"
 
     fun getPluginOptions(hrefConvert : Boolean = false): KaraPluginOptions {
@@ -35,11 +36,12 @@ public class Simple {
         for (line in out.trim().split('\n')) {
             str.append(line.trim()).append('\n')
         }
-        return str.toString().replace(t, "\t")
+        return str.toString()
     }
 
     fun runTest(inp: String, out: String, options : KaraPluginOptions = getPluginOptions()) {
-        assertEquals(outPrepare(out), KaraHTMLConverter.converter(inp, options))
+        val converter = HtmlToKaraConverter(options, Formatter(indent = t))
+        assertEquals(outPrepare(out), converter.convert(inp))
 
     }
 

@@ -48,26 +48,38 @@ fun Node.getType(): NodeType {
     }
 }
 
-public object KaraHTMLConverter {
-    val HTML_BODY_PATTERN = Pattern.compile("(<body[\\s>])", Pattern.CASE_INSENSITIVE)
+public object HtmlUtils {
+    private val HTML_BODY_PATTERN = Pattern.compile("(<body[\\s>])", Pattern.CASE_INSENSITIVE)
 
-    public fun itMayContentHTML(text: String): Boolean {
+    public fun hasBodyTag(htmlText : String): Boolean {
+        return HTML_BODY_PATTERN.matcher(htmlText).find()
+    }
+
+    public fun containsHtml(text: String): Boolean {
         if (hasBodyTag(text)) {
             return true
         }
         val doc = Jsoup.parseBodyFragment(text)
         for (element in doc.body()!!.childNodes()!!) {
-            if (element.nodeName() !== "#text") {
+            if (element.getType() !== NodeType.text) {
                 return true
             }
         }
         return false
     }
+}
 
-    public fun converter(htmlText : String, pluginOptions : KaraPluginOptions, startDepth : Int = 0): String {
+
+public class Formatter(val indent : String = "\t", val lineBreak : String = "\n", val startIndentCount : Int = 0)
+
+public class HtmlToKaraConverter(val pluginOptions : KaraPluginOptions, val formatter : Formatter = Formatter()) {
+    private val n = formatter.lineBreak
+
+    public fun convert(htmlText : String): String {
         val str = StringBuilder()
-        val nodeTraversor = NodeTraversor(KaraConvertNodeVisitor(str, startDepth, HtmlAttributeConverter(pluginOptions)))
-        if (hasBodyTag(htmlText)) {
+        val nodeTraversor = NodeTraversor(KaraConvertNodeVisitor(str, formatter.startIndentCount,
+                HtmlAttributeConverter(pluginOptions)))
+        if (HtmlUtils.hasBodyTag(htmlText)) {
             val doc = Jsoup.parse(htmlText)
             nodeTraversor.traverse(doc!!.head())
             nodeTraversor.traverse(doc.body())
@@ -80,25 +92,21 @@ public object KaraHTMLConverter {
         return str.toString()
     }
 
-    private fun hasBodyTag(htmlText : String): Boolean {
-        return HTML_BODY_PATTERN.matcher(htmlText).find()
-    }
-
-    private fun spaces(depth : Int) : String {
-        return "\t".repeat(depth)
+    private fun generateIndent(depth : Int) : String {
+        return formatter.indent.repeat(depth)
     }
 
     private fun getTrimLines(text : String): List<String> {
         val trimText = text.trim()
         if (trimText.isEmpty()) return Collections.emptyList()
 
-        return trimText.split('\n').map { s -> s.trim() }
+        return trimText.split("${n}").map { s -> s.trim() }
     }
 
     private fun dataConverter(text : String, depth :  Int): String {
         val str = StringBuilder()
         for (line in getTrimLines(text)) {
-            str.append(spaces(depth)).append(line).append('\n')
+            str.append(generateIndent(depth)).append(line).append("${n}")
         }
         return str.toString()
     }
@@ -106,12 +114,12 @@ public object KaraHTMLConverter {
     private fun textConverter(text : String, depth :  Int): String {
         val str = StringBuilder()
         for (line in getTrimLines(text)) {
-            str.append(spaces(depth)).append("+\"$line\"\n")
+            str.append(generateIndent(depth)).append("+\"$line\"${n}")
         }
         return str.toString()
     }
 
-    private class KaraConvertNodeVisitor(val stringBuilder : StringBuilder, val startDepth : Int, 
+    private inner class KaraConvertNodeVisitor(val stringBuilder : StringBuilder, val startDepth : Int,
                                          val attributeConverter : HtmlAttributeConverter) : NodeVisitor {
         override fun head(node: Node, depth: Int) {
             val realDepth = depth + startDepth
@@ -122,21 +130,21 @@ public object KaraHTMLConverter {
                     if (!convertedText.isEmpty()) stringBuilder.append(convertedText)
                 }
 
-                comment -> stringBuilder.append(spaces(realDepth)).append("/*\n")
+                comment -> stringBuilder.append(generateIndent(realDepth)).append("/*${n}")
                         .append(dataConverter(node.attr("comment")!!, realDepth + 1))
 
-                data -> stringBuilder.append(spaces(realDepth)).append("\"\"\"\n")
+                data -> stringBuilder.append(generateIndent(realDepth)).append("\"\"\"${n}")
                         .append(dataConverter(node.attr("data")!!, realDepth + 1))
 
                 element -> {
-                    stringBuilder.append(spaces(realDepth)).append(node.nodeName())
+                    stringBuilder.append(generateIndent(realDepth)).append(node.nodeName())
                     val attrStr = attributeConverter.convert(node.attributes()!!)
                     if (!attrStr.isEmpty()) stringBuilder.append('(').append(attrStr).append(')')
 
                     if (node.childNodeSize() != 0) {
-                        stringBuilder.append(" {\n")
+                        stringBuilder.append(" {${n}")
                     } else {
-                        stringBuilder.append("\n")
+                        stringBuilder.append("${n}")
                     }
                 }
             }
@@ -147,15 +155,14 @@ public object KaraHTMLConverter {
             when (node.getType()) {
                 document, doctype -> {}
                 text -> {}
-                comment -> stringBuilder.append(spaces(realDepth)).append("*/\n")
-                data -> stringBuilder.append(spaces(realDepth)).append("\"\"\"\n")
+                comment -> stringBuilder.append(generateIndent(realDepth)).append("*/${n}")
+                data -> stringBuilder.append(generateIndent(realDepth)).append("\"\"\"${n}")
                 element -> {
-                    if (node.childNodeSize() != 0) stringBuilder.append(spaces(realDepth)).append("}\n")
+                    if (node.childNodeSize() != 0) stringBuilder.append(generateIndent(realDepth)).append("}${n}")
                 }
             }
         }
     }
-
 }
 
 

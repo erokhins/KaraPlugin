@@ -30,7 +30,9 @@ import com.intellij.psi.PsiFile;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.jet.lang.psi.JetFile;
 import org.jetbrains.kara.plugin.KaraPluginOptions;
-import org.jetbrains.kara.plugin.converter.KaraHTMLConverter;
+import org.jetbrains.kara.plugin.converter.Formatter;
+import org.jetbrains.kara.plugin.converter.HtmlToKaraConverter;
+import org.jetbrains.kara.plugin.converter.HtmlUtils;
 
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
@@ -46,7 +48,7 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
     private boolean containsHtml(Transferable content) {
         try {
             String text = (String) content.getTransferData(DataFlavor.stringFlavor);
-            if (KaraHTMLConverter.instance$.itMayContentHTML(text)) {
+            if (HtmlUtils.instance$.containsHtml(text)) {
                 return true;
             }
         }
@@ -61,7 +63,8 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
         try {
             if (containsHtml(content)) {
                 String text = (String) content.getTransferData(DataFlavor.stringFlavor);
-                String newText = KaraHTMLConverter.instance$.converter(text, KaraPluginOptions.getInstance(), 0);
+                HtmlToKaraConverter converter = new HtmlToKaraConverter(KaraPluginOptions.getInstance(), new Formatter());
+                String newText = converter.convert(text);
                 return new KaraCode(newText);
             }
         }
