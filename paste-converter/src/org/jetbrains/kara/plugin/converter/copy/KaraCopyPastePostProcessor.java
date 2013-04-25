@@ -100,7 +100,7 @@ public class KaraCopyPastePostProcessor implements CopyPastePostProcessor<TextBl
 
     private static boolean allowConvert(@NotNull Project project) {
         KaraPluginOptions options = KaraPluginOptions.getInstance();
-        if (options.isDonTShowConversionDialog()) {
+        if (options.isDontShowConversionDialog()) {
             return options.isEnableHtmlToKaraConversion();
         }
 

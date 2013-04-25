@@ -29,7 +29,7 @@ import org.jetbrains.annotations.Nullable;
 )
 public class KaraPluginOptions implements PersistentStateComponent<KaraPluginOptions> {
 
-    private boolean donTShowConversionDialog = false;
+    private boolean dontShowConversionDialog = false;
     private boolean enableHtmlToKaraConversion = true;
     private boolean enableHrefToDirectLinkConversion = false;
 
@@ -42,12 +42,12 @@ public class KaraPluginOptions implements PersistentStateComponent<KaraPluginOpt
         this.enableHrefToDirectLinkConversion = enableHrefToDirectLinkConversion;
     }
 
-    public boolean isDonTShowConversionDialog() {
-        return donTShowConversionDialog;
+    public boolean isDontShowConversionDialog() {
+        return dontShowConversionDialog;
     }
 
-    public void setDonTShowConversionDialog(boolean donTShowConversionDialog) {
-        this.donTShowConversionDialog = donTShowConversionDialog;
+    public void setDontShowConversionDialog(boolean dontShowConversionDialog) {
+        this.dontShowConversionDialog = dontShowConversionDialog;
     }
 
     public boolean isEnableHtmlToKaraConversion() {
@@ -58,8 +58,6 @@ public class KaraPluginOptions implements PersistentStateComponent<KaraPluginOpt
     public void setEnableHtmlToKaraConversion(boolean enableHtmlToKaraConversion) {
         this.enableHtmlToKaraConversion = enableHtmlToKaraConversion;
     }
-
-
 
     @Nullable
     @Override

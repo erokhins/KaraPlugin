@@ -28,9 +28,9 @@ public class KaraConfigurable extends BeanConfigurable<KaraPluginOptions> implem
 
     protected KaraConfigurable(KaraPluginOptions beanInstance) {
         super(beanInstance);
-        checkBox("donTShowConversionDialog", "Don't show Html to Kara conversion dialog");
-        checkBox("enableHtmlToKaraConversion", "Enable Html To Kara Conversion");
-        checkBox("enableHrefToDirectLinkConversion", "Enable Href To DirectLink Conversion");
+        checkBox("dontShowConversionDialog", "Don't show HTML to Kara conversion dialog");
+        checkBox("enableHtmlToKaraConversion", "Enable Html To Kara conversion");
+        checkBox("enableHrefToDirectLinkConversion", "Enable href to DirectLink conversion");
     }
 
     @Nls

@@ -35,7 +35,7 @@ public class KaraPasteFromHtmlDialog extends DialogWrapper {
         super(project, true);
         setModal(true);
         getRootPane().setDefaultButton(buttonOK);
-        setTitle("Convert Code From Html");
+        setTitle("Convert Code From HTML");
         init();
     }
 
@@ -58,7 +58,7 @@ public class KaraPasteFromHtmlDialog extends DialogWrapper {
     @Override
     protected void doOKAction() {
         if (donTShowThisCheckBox.isSelected()) {
-            KaraPluginOptions.getInstance().setDonTShowConversionDialog(true);
+            KaraPluginOptions.getInstance().setDontShowConversionDialog(true);
         }
         super.doOKAction();
     }
