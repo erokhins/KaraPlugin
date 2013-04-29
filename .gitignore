@@ -4,3 +4,4 @@ bin/*
 ideaSDK/*
 .idea/workspace.xml
 lib/*
+dependencies/*

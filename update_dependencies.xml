@@ -33,6 +33,7 @@
                 <include name="**/*"/>
             </patternset>
         </unzip>
+        <copy file="dependencies/download/Kotlin/lib/kotlin-plugin.jar" tofile="${project.lib}/kotlin-plugin.jar" overwrite="true"/>
 
     </target>
 

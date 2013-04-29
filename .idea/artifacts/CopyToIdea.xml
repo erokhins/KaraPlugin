@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact name="cpToIdea">
+  <artifact name="CopyToIdea">
     <output-path>$PROJECT_DIR$/ideaSDK/config/plugins</output-path>
     <root id="root">
       <element id="artifact" artifact-name="KaraPlugin:jar" />
