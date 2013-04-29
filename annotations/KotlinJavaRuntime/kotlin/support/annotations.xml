@@ -1,8 +1,0 @@
-<root>
-    <item name='kotlin.support.AbstractIterator T next()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='kotlin.support.AbstractIterator T peek()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

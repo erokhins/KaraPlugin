@@ -4,6 +4,7 @@
 
     <property name="idea.sdk.base.url" value="http://teamcity.jetbrains.com/guestAuth/repository/download/bt410/81390:id"/>
     <property name="idea.sdk.build.zip" value="ideaIC-129.SNAPSHOT.win.zip"/>
+    <property name="idea.sdk.folder" value="ideaSDK"/>
 
     <target name="update" depends="download-libraries, download-idea-sdk">
     </target>
@@ -32,8 +33,6 @@
                 <include name="**/*"/>
             </patternset>
         </unzip>
-        <copy file="dependencies/download/Kotlin/lib/kotlin-plugin.jar" tofile="${project.lib}/kotlin-plugin.jar" overwrite="true"/>
-        <copy file="dependencies/download/Kotlin/kotlinc/lib/kotlin-runtime.jar" tofile="${project.lib}/kotlin-runtime.jar" overwrite="true"/>
 
     </target>
 
@@ -41,12 +40,18 @@
         <get src="${idea.sdk.base.url}/${idea.sdk.build.zip}" dest="dependencies/download/${idea.sdk.build.zip}" usetimestamp="true"/>
         <get src="${idea.sdk.base.url}/sources.zip" dest="dependencies/download/idea-sdk-sources.zip" usetimestamp="true"/>
 
-        <mkdir dir="idea.sdk"/>
-        <mkdir dir="idea.sdk/sources"/>
+        <mkdir dir="${idea.sdk.folder}"/>
+        <mkdir dir="${idea.sdk.folder}/sources"/>
 
-        <unzip src="dependencies/download/${idea.sdk.build.zip}" dest="idea.sdk"/>
-        <copy file="dependencies/download/idea-sdk-sources.zip" tofile="idea.sdk/sources/sources.zip"/>
-        <copy file="dependencies/download/Kotlin/" tofile="idea.sdk/config/plugins" />
+        <unzip src="dependencies/download/${idea.sdk.build.zip}" dest="${idea.sdk.folder}"/>
+        <copy file="dependencies/download/idea-sdk-sources.zip" tofile="${idea.sdk.folder}/sources/sources.zip"/>
+
+        <mkdir dir="${idea.sdk.folder}/config"/>
+        <mkdir dir="${idea.sdk.folder}/config/plugins"/>
+        <mkdir dir="${idea.sdk.folder}/config/plugins/Kotlin"/>
+        <copy todir="${idea.sdk.folder}/config/plugins/Kotlin" >
+            <fileset dir="dependencies/download/Kotlin/" includes="**"/>
+        </copy>
     </target>
 
 </project>
